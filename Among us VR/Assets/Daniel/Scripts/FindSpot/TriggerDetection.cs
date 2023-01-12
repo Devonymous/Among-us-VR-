@@ -6,11 +6,8 @@ public class TriggerDetection : MonoBehaviour
 {
     [SerializeField] MinigameBase minigame;
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKey(KeyCode.E))
-        {
-            minigame.OnComplete.Invoke();
-        }
+        minigame.OnComplete.Invoke();
     }
 }
