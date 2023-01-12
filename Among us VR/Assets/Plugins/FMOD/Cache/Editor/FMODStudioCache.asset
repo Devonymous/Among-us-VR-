@@ -1,5 +1,72 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3766484070775404851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/EngineLayer2
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/EngineLayer2
+  Guid:
+    Data1: 1408900122
+    Data2: 1117767161
+    Data3: 734967735
+    Data4: -1080143073
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 48250
+--- !u!114 &-3314394195367374752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CockpitRoom.bank
+  m_EditorClassIdentifier: 
+  Path: Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank
+  Name: CockpitRoom
+  StudioPath: bank:/CockpitRoom
+  lastModified: 638091330683711222
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
+--- !u!114 &-2558965580156386485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/VeggieRoom.bank
+  m_EditorClassIdentifier: 
+  Path: Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank
+  Name: VeggieRoom
+  StudioPath: bank:/VeggieRoom
+  lastModified: 638091330684281745
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
 --- !u!114 &-1424375708339710962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +82,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638091257735724216
+  lastModified: 638091330684201664
   FileSizes:
   - Name: Desktop
     Value: 532640
@@ -35,10 +102,30 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638091257735734225
+  lastModified: 638091330684231690
   FileSizes:
   - Name: Desktop
-    Value: 758
+    Value: 1296
+  Exists: 1
+--- !u!114 &-393776159787721948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MiscellaneousSounds.bank
+  m_EditorClassIdentifier: 
+  Path: Audio files/AmongUsVR/Build/Desktop/MiscellaneousSounds.bank
+  Name: MiscellaneousSounds
+  StudioPath: bank:/MiscellaneousSounds
+  lastModified: 638091330684261722
+  FileSizes:
+  - Name: Desktop
+    Value: 494
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -55,15 +142,80 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -673088895981517255}
   - {fileID: -1424375708339710962}
+  - {fileID: -3314394195367374752}
+  - {fileID: 8041233579894383652}
+  - {fileID: -393776159787721948}
+  - {fileID: -2558965580156386485}
   EditorEvents:
   - {fileID: 2710802414039136368}
+  - {fileID: -3766484070775404851}
+  - {fileID: 6004969081627763642}
+  - {fileID: 2447257329495935775}
+  - {fileID: 3953818605921123259}
+  - {fileID: 4420616721056769341}
+  - {fileID: 9223368746933043973}
+  - {fileID: 1078530167603406729}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1424375708339710962}
   StringsBanks:
   - {fileID: -673088895981517255}
-  cacheTime: 638091257735734225
+  cacheTime: 638091330684281745
   cacheVersion: 131601
+--- !u!114 &1078530167603406729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/EngineShipwide
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/EngineShipwide
+  Guid:
+    Data1: -1751329701
+    Data2: 1216072354
+    Data3: 662988724
+    Data4: -1173406627
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 3405
+--- !u!114 &2447257329495935775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/SteamPuff1
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/SteamPuff1
+  Guid:
+    Data1: -1690835598
+    Data2: 1247696512
+    Data3: 2044011156
+    Data4: -235735621
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 2606
 --- !u!114 &2710802414039136368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,3 +243,131 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 48000
+--- !u!114 &3953818605921123259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/EngineLayer1
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/EngineLayer1
+  Guid:
+    Data1: 839943801
+    Data2: 1080583695
+    Data3: 249792187
+    Data4: -1293142680
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 3405
+--- !u!114 &4420616721056769341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/Ambiance1
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/Ambiance1
+  Guid:
+    Data1: -833546884
+    Data2: 1252218486
+    Data3: 1456525487
+    Data4: 1868789084
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 9050
+--- !u!114 &6004969081627763642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/Alarm1
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/Alarm1
+  Guid:
+    Data1: -488078776
+    Data2: 1227548260
+    Data3: -358920269
+    Data4: 309803371
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 47949
+--- !u!114 &8041233579894383652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EngineRoom.bank
+  m_EditorClassIdentifier: 
+  Path: Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank
+  Name: EngineRoom
+  StudioPath: bank:/EngineRoom
+  lastModified: 638091330684021502
+  FileSizes:
+  - Name: Desktop
+    Value: 1539808
+  Exists: 1
+--- !u!114 &9223368746933043973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EngineRoom/GasHiss1
+  m_EditorClassIdentifier: 
+  Path: event:/EngineRoom/GasHiss1
+  Guid:
+    Data1: 2091572125
+    Data2: 1148780699
+    Data3: 1604319115
+    Data4: 1080630168
+  Banks:
+  - {fileID: 8041233579894383652}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 33317
