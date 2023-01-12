@@ -1,5 +1,140 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8429022644260547007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Electricity
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Electricity
+  Guid:
+    Data1: 869661862
+    Data2: 1109307391
+    Data3: -2147417719
+    Data4: -7455493
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7958
+--- !u!114 &-7353375880251261357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Fan3
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Fan3
+  Guid:
+    Data1: -389498915
+    Data2: 1114876025
+    Data3: -1964801147
+    Data4: 1763788412
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60714
+--- !u!114 &-5668598042735381962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CockpitRoom/3
+  m_EditorClassIdentifier: 
+  Path: event:/CockpitRoom/3
+  Guid:
+    Data1: 2081501813
+    Data2: 1214253609
+    Data3: 398742164
+    Data4: 318336936
+  Banks:
+  - {fileID: -3314394195367374752}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8275
+--- !u!114 &-5463436918450249746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Lamp2
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Lamp2
+  Guid:
+    Data1: -1993368067
+    Data2: 1272520578
+    Data3: 279509910
+    Data4: -1997615367
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8034
+--- !u!114 &-4433668077732618448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Lamp1
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Lamp1
+  Guid:
+    Data1: 1220870376
+    Data2: 1102820330
+    Data3: -1587603033
+    Data4: 1676247422
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5561
 --- !u!114 &-3766484070775404851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +177,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank
   Name: CockpitRoom
   StudioPath: bank:/CockpitRoom
-  lastModified: 638091330683711222
+  lastModified: 638091678889022963
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 1391840
   Exists: 1
 --- !u!114 &-2558965580156386485
 MonoBehaviour:
@@ -62,10 +197,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank
   Name: VeggieRoom
   StudioPath: bank:/VeggieRoom
-  lastModified: 638091330684281745
+  lastModified: 638091678890044875
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 5415840
   Exists: 1
 --- !u!114 &-1424375708339710962
 MonoBehaviour:
@@ -82,10 +217,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638091330684201664
+  lastModified: 638091678889559076
   FileSizes:
   - Name: Desktop
-    Value: 532640
+    Value: 919584
   Exists: 1
 --- !u!114 &-673088895981517255
 MonoBehaviour:
@@ -102,11 +237,38 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638091330684231690
+  lastModified: 638091678889579094
   FileSizes:
   - Name: Desktop
-    Value: 1296
+    Value: 1876
   Exists: 1
+--- !u!114 &-632776302119644938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Fan1
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Fan1
+  Guid:
+    Data1: 1513971083
+    Data2: 1308777477
+    Data3: -1960566367
+    Data4: 817388674
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 260000
 --- !u!114 &-393776159787721948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,7 +284,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/MiscellaneousSounds.bank
   Name: MiscellaneousSounds
   StudioPath: bank:/MiscellaneousSounds
-  lastModified: 638091330684261722
+  lastModified: 638091678889599109
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -155,12 +317,26 @@ MonoBehaviour:
   - {fileID: 4420616721056769341}
   - {fileID: 9223368746933043973}
   - {fileID: 1078530167603406729}
+  - {fileID: 6737132613891459069}
+  - {fileID: -5668598042735381962}
+  - {fileID: 6105353186109167136}
+  - {fileID: 4014445481878421836}
+  - {fileID: 4925029602972081584}
+  - {fileID: 8209362417545930100}
+  - {fileID: 6881571187711366854}
+  - {fileID: 1222656993304377455}
+  - {fileID: -632776302119644938}
+  - {fileID: -8429022644260547007}
+  - {fileID: 8610420003738492451}
+  - {fileID: -7353375880251261357}
+  - {fileID: -4433668077732618448}
+  - {fileID: -5463436918450249746}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1424375708339710962}
   StringsBanks:
   - {fileID: -673088895981517255}
-  cacheTime: 638091330684281745
+  cacheTime: 638091678890044875
   cacheVersion: 131601
 --- !u!114 &1078530167603406729
 MonoBehaviour:
@@ -189,6 +365,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 3405
+--- !u!114 &1222656993304377455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Drip
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Drip
+  Guid:
+    Data1: 864948606
+    Data2: 1137620531
+    Data3: 618437290
+    Data4: -597388598
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59748
 --- !u!114 &2447257329495935775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +473,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 3405
+--- !u!114 &4014445481878421836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CockpitRoom/2
+  m_EditorClassIdentifier: 
+  Path: event:/CockpitRoom/2
+  Guid:
+    Data1: 761553075
+    Data2: 1187337560
+    Data3: -1963886662
+    Data4: 664220639
+  Banks:
+  - {fileID: -3314394195367374752}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33413
 --- !u!114 &4420616721056769341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +527,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 9050
+--- !u!114 &4925029602972081584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CockpitRoom/4
+  m_EditorClassIdentifier: 
+  Path: event:/CockpitRoom/4
+  Guid:
+    Data1: -1679505671
+    Data2: 1155186791
+    Data3: 1442619803
+    Data4: 1975351724
+  Banks:
+  - {fileID: -3314394195367374752}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12120
 --- !u!114 &6004969081627763642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,6 +581,87 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 47949
+--- !u!114 &6105353186109167136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CockpitRoom/5
+  m_EditorClassIdentifier: 
+  Path: event:/CockpitRoom/5
+  Guid:
+    Data1: 468423086
+    Data2: 1155754509
+    Data3: 1055446912
+    Data4: 875090898
+  Banks:
+  - {fileID: -3314394195367374752}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5011
+--- !u!114 &6737132613891459069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CockpitRoom/1
+  m_EditorClassIdentifier: 
+  Path: event:/CockpitRoom/1
+  Guid:
+    Data1: -1972379563
+    Data2: 1325241003
+    Data3: -181773406
+    Data4: -1753412814
+  Banks:
+  - {fileID: -3314394195367374752}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
+--- !u!114 &6881571187711366854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Fan2
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Fan2
+  Guid:
+    Data1: -629261791
+    Data2: 1260558108
+    Data3: -333626208
+    Data4: -1479951528
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29120
 --- !u!114 &8041233579894383652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,11 +677,65 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank
   Name: EngineRoom
   StudioPath: bank:/EngineRoom
-  lastModified: 638091330684021502
+  lastModified: 638091678889338880
   FileSizes:
   - Name: Desktop
     Value: 1539808
   Exists: 1
+--- !u!114 &8209362417545930100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VoiceStartEvent
+  m_EditorClassIdentifier: 
+  Path: event:/VoiceStartEvent
+  Guid:
+    Data1: 77791645
+    Data2: 1149899087
+    Data3: -1302668144
+    Data4: 1153708696
+  Banks:
+  - {fileID: -1424375708339710962}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 57391
+--- !u!114 &8610420003738492451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VeggieRoom/Leaves
+  m_EditorClassIdentifier: 
+  Path: event:/VeggieRoom/Leaves
+  Guid:
+    Data1: 1901264317
+    Data2: 1286176680
+    Data3: -902009442
+    Data4: 263867544
+  Banks:
+  - {fileID: -2558965580156386485}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16000
 --- !u!114 &9223368746933043973
 MonoBehaviour:
   m_ObjectHideFlags: 0
