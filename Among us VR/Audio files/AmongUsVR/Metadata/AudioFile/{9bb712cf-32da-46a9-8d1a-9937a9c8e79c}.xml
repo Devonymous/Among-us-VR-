@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9bb712cf-32da-46a9-8d1a-9937a9c8e79c}">
+		<property name="assetPath">
+			<value>453442__kyles__hiss-pipe-sharp-like-propane-gas.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>33.317937499999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d79c7b10-2a3a-4ca9-a52a-f00a11ebd993}</destination>
+		</relationship>
+	</object>
+</objects>

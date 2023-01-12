@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{317b215d-306a-4994-932a-fe4f0bc9649c}">
+		<property name="assetPath">
+			<value>594215__steaq__big-steam-engine-perfect-loop-24bit-flac.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.4059863945578233</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d79c7b10-2a3a-4ca9-a52a-f00a11ebd993}</destination>
+		</relationship>
+	</object>
+</objects>

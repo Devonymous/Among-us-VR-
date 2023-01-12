@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bedfa70b-39ea-493e-a3ac-7e3771bc4ce9}">
+		<property name="assetPath">
+			<value>270593__phantastonia__spaceship-rumble-bg4.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>48.25</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d79c7b10-2a3a-4ca9-a52a-f00a11ebd993}</destination>
+		</relationship>
+	</object>
+</objects>
