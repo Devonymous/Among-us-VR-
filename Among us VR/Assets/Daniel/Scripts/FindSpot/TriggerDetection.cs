@@ -8,6 +8,6 @@ public class TriggerDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        minigame.OnComplete.Invoke();
+        minigame.OnCompleteRound.Invoke();
     }
 }

@@ -9,6 +9,12 @@ public class MinigameFindSpot : MinigameBase
     [SerializeField] GameObject PlayingField;
     [SerializeField] float PlayingFieldRangeX;
     [SerializeField] float PlayingFieldRangeY;
+    [SerializeField] int TimesToComplete;
+
+
+    int CurrentScore;
+
+
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -16,6 +22,17 @@ public class MinigameFindSpot : MinigameBase
     }
     
    
+    public void RoundComplete()
+    {
+        if(CurrentScore >= TimesToComplete)
+        {
+            OnComplete.Invoke();
+        }else
+        {
+            CurrentScore++;
+            Init();
+        }
+    }
 
     void Init()
     {
