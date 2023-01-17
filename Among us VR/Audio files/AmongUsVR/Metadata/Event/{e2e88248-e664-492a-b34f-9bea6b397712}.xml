@@ -202,7 +202,6 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -211,7 +210,6 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -235,7 +233,7 @@
 			<value>ApplyAA</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -263,7 +261,7 @@
 			<value>ApplyOccl</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -277,7 +275,7 @@
 			<value>ApplyTrans</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -357,7 +355,7 @@
 			<value>DAMaxDist</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>25</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10000.000000)}</value>
@@ -423,7 +421,7 @@
 			<value>DipolePower</value>
 		</property>
 		<property name="value">
-			<value>1.38</value>
+			<value>1.41999996</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,1.000000)(1.000000,4.000000)}</value>
@@ -540,7 +538,6 @@
 		<property name="name">
 			<value>SimOutputs</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>
@@ -557,7 +554,6 @@
 		<property name="name">
 			<value>DistRange</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>

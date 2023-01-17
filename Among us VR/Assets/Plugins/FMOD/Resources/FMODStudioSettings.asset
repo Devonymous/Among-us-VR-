@@ -387,6 +387,7 @@ MonoBehaviour:
   Banks:
   - CockpitRoom
   - EngineRoom
+  - Lab
   - Maurits
   - MiscellaneousSounds
   - VeggieRoom
