@@ -286,6 +286,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1083260840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2147149660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1304748935
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +389,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2065732085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2147149660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2147149660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -455,17 +467,17 @@ PrefabInstance:
     - target: {fileID: 4938479637472330962, guid: 9b3f1a891433bdc489667c56433fe1a4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4938479637472330962, guid: 9b3f1a891433bdc489667c56433fe1a4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4938479637472330962, guid: 9b3f1a891433bdc489667c56433fe1a4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.96
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4938479637472330962, guid: 9b3f1a891433bdc489667c56433fe1a4,
         type: 3}
@@ -507,5 +519,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: MachineFinder
       objectReference: {fileID: 0}
+    - target: {fileID: 4938479638583074414, guid: 9b3f1a891433bdc489667c56433fe1a4,
+        type: 3}
+      propertyPath: ControllerL
+      value: 
+      objectReference: {fileID: 1083260840}
+    - target: {fileID: 4938479638583074414, guid: 9b3f1a891433bdc489667c56433fe1a4,
+        type: 3}
+      propertyPath: ControllerR
+      value: 
+      objectReference: {fileID: 2065732085}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b3f1a891433bdc489667c56433fe1a4, type: 3}

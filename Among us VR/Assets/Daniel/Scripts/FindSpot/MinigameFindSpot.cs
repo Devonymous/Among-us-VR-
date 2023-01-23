@@ -7,8 +7,8 @@ public class MinigameFindSpot : MinigameBase
 
     [SerializeField] GameObject spotTrigger;
     [SerializeField] GameObject PlayingField;
-    [SerializeField] float PlayingFieldRangeX;
-    [SerializeField] float PlayingFieldRangeY;
+    float PlayingFieldRangeX;
+    float PlayingFieldRangeZ;
     [SerializeField] int TimesToComplete;
 
 
@@ -36,7 +36,9 @@ public class MinigameFindSpot : MinigameBase
 
     void Init()
     {
-        Vector3 offset = PlayingField.transform.rotation * new Vector3(Random.Range(PlayingFieldRangeX, -PlayingFieldRangeX), 0, Random.Range(PlayingFieldRangeY, -PlayingFieldRangeY));
+        PlayingFieldRangeX = PlayingField.transform.lossyScale.x / 2;
+        PlayingFieldRangeZ = PlayingField.transform.lossyScale.z / 2;
+        Vector3 offset = PlayingField.transform.rotation * new Vector3(Random.Range(PlayingFieldRangeX, -PlayingFieldRangeX), 0, Random.Range(PlayingFieldRangeZ, -PlayingFieldRangeZ));
         spotTrigger.transform.rotation = PlayingField.transform.rotation;
         spotTrigger.transform.position = PlayingField.transform.position + offset;
     }
