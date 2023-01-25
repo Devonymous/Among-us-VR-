@@ -15,4 +15,9 @@ public class DoorController : MonoBehaviour
         animator.SetBool("Open", Open);
     }
 
+    public void MovetoDoor(GameObject PlayerObj)
+    {
+        PlayerObj.transform.position = transform.position;
+    }
+
 }
