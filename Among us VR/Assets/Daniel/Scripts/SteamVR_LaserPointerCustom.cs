@@ -20,9 +20,9 @@ namespace Valve.VR.Extras
         bool isActive = false;
         public bool addRigidBody = false;
         public Transform reference;
-        public event PointerEventHandler PointerIn;
-        public event PointerEventHandler PointerOut;
-        public event PointerEventHandler PointerClick;
+        public event PointerEventHandlerCustom PointerInCustom;
+        public event PointerEventHandlerCustom PointerOutCustom;
+        public event PointerEventHandlerCustom PointerClickCustom;
 
         [Space(10), Tooltip("CUSTOM")]
         public SteamVR_Action_Vibration HapticAction;
@@ -73,22 +73,22 @@ namespace Valve.VR.Extras
             pointer.GetComponent<MeshRenderer>().material = newMaterial;
         }
 
-        public virtual void OnPointerIn(PointerEventArgs e)
+        public virtual void OnPointerIn(PointerEventArgsCustom e)
         {
-            if (PointerIn != null)
-                PointerIn(this, e);
+            if (PointerInCustom != null)
+                PointerInCustom(this, e);
         }
 
-        public virtual void OnPointerClick(PointerEventArgs e)
+        public virtual void OnPointerClick(PointerEventArgsCustom e)
         {
-            if (PointerClick != null)
-                PointerClick(this, e);
+            if (PointerClickCustom != null)
+                PointerClickCustom(this, e);
         }
 
-        public virtual void OnPointerOut(PointerEventArgs e)
+        public virtual void OnPointerOut(PointerEventArgsCustom e)
         {
-            if (PointerOut != null)
-                PointerOut(this, e);
+            if (PointerOutCustom != null)
+                PointerOutCustom(this, e);
         }
 
 
@@ -108,7 +108,7 @@ namespace Valve.VR.Extras
 
             if (previousContact && previousContact != hit.transform)
             {
-                PointerEventArgs args = new PointerEventArgs();
+                PointerEventArgsCustom args = new PointerEventArgsCustom();
                 args.fromInputSource = pose.inputSource;
                 args.distance = 0f;
                 args.flags = 0;
@@ -118,7 +118,7 @@ namespace Valve.VR.Extras
             }
             if (bHit && previousContact != hit.transform)
             {
-                PointerEventArgs argsIn = new PointerEventArgs();
+                PointerEventArgsCustom argsIn = new PointerEventArgsCustom();
                 argsIn.fromInputSource = pose.inputSource;
                 argsIn.distance = hit.distance;
                 argsIn.flags = 0;
@@ -137,7 +137,7 @@ namespace Valve.VR.Extras
 
             if (bHit && interactWithUI.GetStateUp(pose.inputSource))
             {
-                PointerEventArgs argsClick = new PointerEventArgs();
+                PointerEventArgsCustom argsClick = new PointerEventArgsCustom();
                 argsClick.fromInputSource = pose.inputSource;
                 argsClick.distance = hit.distance;
                 argsClick.flags = 0;
@@ -175,7 +175,7 @@ namespace Valve.VR.Extras
         }
     }
 
-    public struct PointerEventArgs
+    public struct PointerEventArgsCustom
     {
         public SteamVR_Input_Sources fromInputSource;
         public uint flags;
@@ -183,5 +183,5 @@ namespace Valve.VR.Extras
         public Transform target;
     }
 
-    public delegate void PointerEventHandler(object sender, PointerEventArgs e);
+    public delegate void PointerEventHandlerCustom(object sender, PointerEventArgsCustom e);
 }
