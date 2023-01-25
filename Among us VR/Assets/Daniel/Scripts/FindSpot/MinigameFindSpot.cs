@@ -34,6 +34,11 @@ public class MinigameFindSpot : MinigameBase
         }
     }
 
+    public void DisableMinigame()
+    {
+        Destroy(transform.parent.gameObject);
+    }
+
     void Init()
     {
         PlayingFieldRangeX = PlayingField.transform.lossyScale.x / 2;
