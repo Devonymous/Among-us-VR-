@@ -14,11 +14,13 @@ public class TriggerDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        minigame.OnCompleteRound.Invoke();
+        if (other.tag == "Controller")
+        {
+            minigame.OnCompleteRound.Invoke();
 
-        //send strongest pulse to indicate that the player reached the spot
-        HapticAction.Execute(0, 1, 150, 1, SteamVR_Input_Sources.LeftHand);
-        
+            //send strongest pulse to indicate that the player reached the spot
+            HapticAction.Execute(0, 1, 150, 1, SteamVR_Input_Sources.LeftHand);
+        }
     }
 
     void Start()

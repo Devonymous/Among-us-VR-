@@ -26,7 +26,7 @@ namespace Valve.VR.Extras
 
         [Space(10), Tooltip("CUSTOM")]
         public SteamVR_Action_Vibration HapticAction;
-
+        [SerializeField] PlayerLocationManager playerLocation;
         Transform previousContact = null;
 
 
@@ -156,11 +156,11 @@ namespace Valve.VR.Extras
                 pointer.GetComponent<MeshRenderer>().material.color = color;
             }
 
-            if (hit.collider.gameObject.tag == "Door")
+            if (playerLocation.Idle && hit.collider.gameObject.tag == "Door")
             {
                 HapticAction.Execute(0, 1, 150, .5f, SteamVR_Input_Sources.RightHand);
             }
-            if (hit.collider.gameObject.tag == "Door" && interactWithUI != null && interactWithUI.GetState(pose.inputSource))
+            if (playerLocation.Idle && hit.collider.gameObject.tag == "Door" && interactWithUI != null && interactWithUI.GetState(pose.inputSource))
             {
                 hit.transform.gameObject.GetComponent<DoorController>().MovetoDoor(transform.root.gameObject);
             }

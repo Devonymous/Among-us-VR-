@@ -6,6 +6,8 @@ public class DoorController : MonoBehaviour
 {
     [SerializeField] Animator animator;
 
+    [SerializeField] GameObject Minigame;
+
     public Transform Front;
 
     public Transform Back;
@@ -20,6 +22,7 @@ public class DoorController : MonoBehaviour
 
     public void MovetoDoor(GameObject PlayerObj)
     {
+        PlayerObj.GetComponent<PlayerLocationManager>().Idle = false;
         if (Vector3.Distance(PlayerObj.transform.position, Front.position) < Vector3.Distance(PlayerObj.transform.position, Back.position))
         {
             PlayerObj.transform.position = Front.position;
@@ -27,6 +30,12 @@ public class DoorController : MonoBehaviour
         {
             PlayerObj.transform.position = Back.position;
         }
+
+        if (Locked)
+        {
+            Minigame.SetActive(true);
+        }
+
     }
 
 }
