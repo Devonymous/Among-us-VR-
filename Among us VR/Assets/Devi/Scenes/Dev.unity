@@ -851,7 +851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4574aaf34eeae284bbb53b517189e81a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cords: {fileID: 903767041}
+  Cords: {fileID: 533233684}
   prefab: {fileID: 2466517253651207686, guid: 66eec72460e9719418dab23fe1d02e3f, type: 3}
 --- !u!65 &1140719301
 BoxCollider:

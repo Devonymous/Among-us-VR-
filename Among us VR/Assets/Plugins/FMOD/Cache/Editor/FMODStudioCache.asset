@@ -1,52 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9039082533353690337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Maurits/RHR
-  m_EditorClassIdentifier: 
-  Path: event:/Maurits/RHR
-  Guid:
-    Data1: 1467136392
-    Data2: 1164339639
-    Data3: -25793899
-    Data4: 1010979192
-  Banks:
-  - {fileID: 7265724948311275061}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2700
---- !u!114 &-8810664973546830087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Lab.bank
-  m_EditorClassIdentifier: 
-  Path: Audio files/AmongUsVR/Build/Desktop/Lab.bank
-  Name: Lab
-  StudioPath: bank:/Lab
-  lastModified: 638102584451056262
-  FileSizes:
-  - Name: Desktop
-    Value: 694240
-  Exists: 1
 --- !u!114 &-8429022644260547007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,33 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7958
---- !u!114 &-7691141364329752552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Maurits/RHU
-  m_EditorClassIdentifier: 
-  Path: event:/Maurits/RHU
-  Guid:
-    Data1: 57994138
-    Data2: 1285940994
-    Data3: -1011469948
-    Data4: 346888672
-  Banks:
-  - {fileID: 7265724948311275061}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2484
 --- !u!114 &-7353375880251261357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,114 +54,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60714
---- !u!114 &-7064461861083395110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Button1
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Button1
-  Guid:
-    Data1: 105265262
-    Data2: 1142463962
-    Data3: 1785128581
-    Data4: 168641680
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &-6226660949295898181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Maurits/LHR
-  m_EditorClassIdentifier: 
-  Path: event:/Maurits/LHR
-  Guid:
-    Data1: 1366555294
-    Data2: 1107769032
-    Data3: -803155285
-    Data4: -792404178
-  Banks:
-  - {fileID: 7265724948311275061}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1128
---- !u!114 &-6109658101118475774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Maurits/LHL
-  m_EditorClassIdentifier: 
-  Path: event:/Maurits/LHL
-  Guid:
-    Data1: 664060782
-    Data2: 1179176714
-    Data3: -137990729
-    Data4: 1818817940
-  Banks:
-  - {fileID: 7265724948311275061}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1056
---- !u!114 &-5725121823756784493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Button5
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Button5
-  Guid:
-    Data1: -737215956
-    Data2: 1075164266
-    Data3: 1485983143
-    Data4: -54637996
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2681
 --- !u!114 &-5668598042735381962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,33 +108,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8034
---- !u!114 &-5171239737281757442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Button2
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Button2
-  Guid:
-    Data1: 357810401
-    Data2: 1122001958
-    Data3: 2123462050
-    Data4: -1448993912
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2681
 --- !u!114 &-4433668077732618448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,33 +162,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 48250
---- !u!114 &-3757355172107368705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Audio test companion
-  m_EditorClassIdentifier: 
-  Path: event:/Audio test companion
-  Guid:
-    Data1: 1722460615
-    Data2: 1085053766
-    Data3: 18769553
-    Data4: -1247180916
-  Banks:
-  - {fileID: -1424375708339710962}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 4.2000003
-  Length: 48000
 --- !u!114 &-3314394195367374752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,38 +177,11 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank
   Name: CockpitRoom
   StudioPath: bank:/CockpitRoom
-  lastModified: 638102584450555805
+  lastModified: 638094955543942084
   FileSizes:
   - Name: Desktop
     Value: 1391840
   Exists: 1
---- !u!114 &-2669187104879661337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Correct
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Correct
-  Guid:
-    Data1: 1062963323
-    Data2: 1115211370
-    Data3: 1774068151
-    Data4: -534922296
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 279
 --- !u!114 &-2558965580156386485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,7 +197,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank
   Name: VeggieRoom
   StudioPath: bank:/VeggieRoom
-  lastModified: 638102584452237337
+  lastModified: 638094955599362503
   FileSizes:
   - Name: Desktop
     Value: 5415840
@@ -480,10 +217,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638102584451256446
+  lastModified: 638094955560188022
   FileSizes:
   - Name: Desktop
-    Value: 919712
+    Value: 919584
   Exists: 1
 --- !u!114 &-673088895981517255
 MonoBehaviour:
@@ -500,10 +237,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638102584451276462
+  lastModified: 638094955560208043
   FileSizes:
   - Name: Desktop
-    Value: 2704
+    Value: 1876
   Exists: 1
 --- !u!114 &-632776302119644938
 MonoBehaviour:
@@ -547,10 +284,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/MiscellaneousSounds.bank
   Name: MiscellaneousSounds
   StudioPath: bank:/MiscellaneousSounds
-  lastModified: 638102584451776921
+  lastModified: 638094955560218049
   FileSizes:
   - Name: Desktop
-    Value: 792896
+    Value: 494
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -571,9 +308,8 @@ MonoBehaviour:
   - {fileID: 8041233579894383652}
   - {fileID: -393776159787721948}
   - {fileID: -2558965580156386485}
-  - {fileID: -8810664973546830087}
-  - {fileID: 7265724948311275061}
   EditorEvents:
+  - {fileID: 2710802414039136368}
   - {fileID: -3766484070775404851}
   - {fileID: 6004969081627763642}
   - {fileID: 2447257329495935775}
@@ -595,59 +331,13 @@ MonoBehaviour:
   - {fileID: -7353375880251261357}
   - {fileID: -4433668077732618448}
   - {fileID: -5463436918450249746}
-  - {fileID: 7207126599053816257}
-  - {fileID: -3757355172107368705}
-  - {fileID: -6109658101118475774}
-  - {fileID: -9039082533353690337}
-  - {fileID: -7691141364329752552}
-  - {fileID: -6226660949295898181}
-  - {fileID: 573017714889307300}
-  - {fileID: 4011572125504365383}
-  - {fileID: 1894722982688358920}
-  - {fileID: 9091139937541198265}
-  - {fileID: 8797184730807502945}
-  - {fileID: 4944588923327504528}
-  - {fileID: -5725121823756784493}
-  - {fileID: -7064461861083395110}
-  - {fileID: 6311656410108917898}
-  - {fileID: -2669187104879661337}
-  - {fileID: 2455969621334897448}
-  - {fileID: -5171239737281757442}
-  - {fileID: 7124955825653998725}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1424375708339710962}
   StringsBanks:
   - {fileID: -673088895981517255}
-  cacheTime: 638102584452237337
+  cacheTime: 638094955599362503
   cacheVersion: 131601
---- !u!114 &573017714889307300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Maurits/LHU
-  m_EditorClassIdentifier: 
-  Path: event:/Maurits/LHU
-  Guid:
-    Data1: -171480408
-    Data2: 1149814549
-    Data3: -772760949
-    Data4: -1297598986
-  Banks:
-  - {fileID: 7265724948311275061}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 912
 --- !u!114 &1078530167603406729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,33 +392,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 59748
---- !u!114 &1894722982688358920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Lab/Bubble
-  m_EditorClassIdentifier: 
-  Path: event:/Lab/Bubble
-  Guid:
-    Data1: -1616896351
-    Data2: 1223107478
-    Data3: -1510714955
-    Data4: 581260462
-  Banks:
-  - {fileID: -8810664973546830087}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 8.55
-  Length: 3100
 --- !u!114 &2447257329495935775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -756,7 +419,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 2606
---- !u!114 &2455969621334897448
+--- !u!114 &2710802414039136368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -766,23 +429,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Button6
+  m_Name: event:/New Event
   m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Button6
+  Path: event:/New Event
   Guid:
-    Data1: 1772415611
-    Data2: 1165003638
-    Data3: 74047413
-    Data4: 2118839281
+    Data1: 1722460615
+    Data2: 1085053766
+    Data3: 18769553
+    Data4: -1247180916
   Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
+  - {fileID: -1424375708339710962}
+  IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2681
+  Length: 48000
 --- !u!114 &3953818605921123259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,33 +473,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 20
   Length: 3405
---- !u!114 &4011572125504365383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Maurits/RHL
-  m_EditorClassIdentifier: 
-  Path: event:/Maurits/RHL
-  Guid:
-    Data1: -10013771
-    Data2: 1202130576
-    Data3: -1692223836
-    Data4: -1290570462
-  Banks:
-  - {fileID: 7265724948311275061}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2628
 --- !u!114 &4014445481878421836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,33 +554,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12120
---- !u!114 &4944588923327504528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Button3
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Button3
-  Guid:
-    Data1: -1588787687
-    Data2: 1170099944
-    Data3: 1005224639
-    Data4: 1326701330
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &6004969081627763642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,33 +608,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5011
---- !u!114 &6311656410108917898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Incorrect
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Incorrect
-  Guid:
-    Data1: 2063253365
-    Data2: 1311688454
-    Data3: 379172254
-    Data4: -84604142
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 680
 --- !u!114 &6737132613891459069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1080,80 +662,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 29120
---- !u!114 &7124955825653998725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Minigame sfx/Button4
-  m_EditorClassIdentifier: 
-  Path: event:/Minigame sfx/Button4
-  Guid:
-    Data1: -1171622146
-    Data2: 1139268404
-    Data3: 947144378
-    Data4: 440225819
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2681
---- !u!114 &7207126599053816257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pizza
-  m_EditorClassIdentifier: 
-  Path: event:/Pizza
-  Guid:
-    Data1: 1406564520
-    Data2: 1270284346
-    Data3: -855999088
-    Data4: 2092888642
-  Banks:
-  - {fileID: -393776159787721948}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 47949
---- !u!114 &7265724948311275061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Maurits.bank
-  m_EditorClassIdentifier: 
-  Path: Audio files/AmongUsVR/Build/Desktop/Maurits.bank
-  Name: Maurits
-  StudioPath: bank:/Maurits
-  lastModified: 638102584451496664
-  FileSizes:
-  - Name: Desktop
-    Value: 32480
-  Exists: 1
 --- !u!114 &8041233579894383652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,7 +677,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank
   Name: EngineRoom
   StudioPath: bank:/EngineRoom
-  lastModified: 638102584450836060
+  lastModified: 638094955552664803
   FileSizes:
   - Name: Desktop
     Value: 1539808
@@ -1228,60 +736,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 16000
---- !u!114 &8797184730807502945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Lab/Noise
-  m_EditorClassIdentifier: 
-  Path: event:/Lab/Noise
-  Guid:
-    Data1: -1682077978
-    Data2: 1078444673
-    Data3: 172860300
-    Data4: -986022575
-  Banks:
-  - {fileID: -8810664973546830087}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 8.55
-  Length: 59916
---- !u!114 &9091139937541198265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Lab/Beep
-  m_EditorClassIdentifier: 
-  Path: event:/Lab/Beep
-  Guid:
-    Data1: -1944562000
-    Data2: 1089108045
-    Data3: 1553246094
-    Data4: -435335824
-  Banks:
-  - {fileID: -8810664973546830087}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 9104
 --- !u!114 &9223368746933043973
 MonoBehaviour:
   m_ObjectHideFlags: 0
