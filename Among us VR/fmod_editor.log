@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000167253327F8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001AADCDF6198 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,41 +18,22 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
@@ -70,416 +51,53 @@
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627C788, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627C788
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D620
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627C788
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001672E5B2398)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001672529B2F8)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (00000167562895B8)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627CAE8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627CAE8
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D4E0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627CAE8
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001675627C788)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE7378)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (0000016785FD08D8)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627C788, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627C788
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5403904
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11936
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626CFE0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='241701__addiofbaddi__fan-ventilation-mono-4', format=5, channels=1, frequency=48000, lengthbytes=229920, lengthpcm=1397760, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.331882.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627C788
-[LOG] SoundI::release                          : 241701__addiofbaddi__fan-ventilation-mono-4 (000001675627C428)
-[LOG] SoundI::release                          :     241701__addiofbaddi__fan-ventilation-mono-4 (000001672529C4D8)
-[LOG] SoundI::release                          :     241701__addiofbaddi__fan-ventilation-mono-4 (000001677D1DFD88)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627C428, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627C428
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1527936
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D120
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='453442__kyles__hiss-pipe-sharp-like-propane-gas', format=5, channels=2, frequency=48000, lengthbytes=436032, lengthpcm=1599261, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.187866.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627C428
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E5B2398, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E5B2398
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D3A0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='444761__mars420__dougcockpit', format=5, channels=2, frequency=48000, lengthbytes=366528, lengthpcm=1603840, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.036861.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E5B2398
-[LOG] SoundI::release                          : 453442__kyles__hiss-pipe-sharp-like-propane-gas (000001675627C5D8)
-[LOG] SoundI::release                          :     453442__kyles__hiss-pipe-sharp-like-propane-gas (000001672529D858)
-[LOG] SoundI::release                          :     453442__kyles__hiss-pipe-sharp-like-propane-gas (000001677D1DF518)
-[LOG] SoundI::release                          : 444761__mars420__dougcockpit (000001672E5B26F8)
-[LOG] SoundI::release                          :     444761__mars420__dougcockpit (000001672529B7D8)
-[LOG] SoundI::release                          :     444761__mars420__dougcockpit (0000016756289C78)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E5B26F8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E5B26F8
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626CD60
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E5B26F8
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001675627CAE8)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE7518)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (0000016785FD0728)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627CAE8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627CAE8
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1527936
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D4E0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='127707__cydon__alarm-002', format=5, channels=2, frequency=48000, lengthbytes=651584, lengthpcm=2301561, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.995514.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627CAE8
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627C5D8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627C5D8
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank', mode=0x02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000001672E411558, queue head = 0000016419980BD8, queue count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1527936
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D620
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='270593__phantastonia__spaceship-rumble-bg4', format=5, channels=2, frequency=48000, lengthbytes=346176, lengthpcm=2316000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.369690.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627C5D8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E411558
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1527936
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D760
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='270593__phantastonia__spaceship-rumble-bg4', format=5, channels=2, frequency=48000, lengthbytes=346176, lengthpcm=2316000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.369690.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E411558
-[LOG] SoundI::release                          : 127707__cydon__alarm-002 (000001675627C938)
-[LOG] SoundI::release                          :     127707__cydon__alarm-002 (0000016725295B38)
-[LOG] SoundI::release                          :     127707__cydon__alarm-002 (000001677D1E0298)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E411708, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E411708
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626CEA0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E411708
-[LOG] SoundI::release                          : 270593__phantastonia__spaceship-rumble-bg4 (000001672E5B28A8)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (000001672529A5F8)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (0000016756289FD8)
-[LOG] SoundI::release                          : 270593__phantastonia__spaceship-rumble-bg4 (000001672E5B2548)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (000001672529A118)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (0000016756289918)
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001672E5B26F8)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE57D8)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (0000016785C20978)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E4113A8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E4113A8
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5403904
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11936
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626CD60
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='241701__addiofbaddi__fan-ventilation-mono-4', format=5, channels=1, frequency=48000, lengthbytes=229920, lengthpcm=1397760, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.331882.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E4113A8
-[LOG] SoundI::release                          : 241701__addiofbaddi__fan-ventilation-mono-4 (000001675627C788)
-[LOG] SoundI::release                          :     241701__addiofbaddi__fan-ventilation-mono-4 (000001640FCE5158)
-[LOG] SoundI::release                          :     241701__addiofbaddi__fan-ventilation-mono-4 (0000016785FD08D8)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E411048, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E411048
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5403904
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11936
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626CFE0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='343762__inspectorj__dripping-slow-a', format=5, channels=2, frequency=48000, lengthbytes=753984, lengthpcm=2867921, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.097900.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E411048
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E4111F8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E4111F8
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D8A0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='487442__tim-verberne__spaceship-cockpit-ambience-02', format=5, channels=2, frequency=48000, lengthbytes=739552, lengthpcm=2880000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.633747.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E4111F8
-[LOG] SoundI::release                          : 343762__inspectorj__dripping-slow-a (000001675627C0C8)
-[LOG] SoundI::release                          :     343762__inspectorj__dripping-slow-a (000001672529BCB8)
-[LOG] SoundI::release                          :     343762__inspectorj__dripping-slow-a (000001677D1DFBD8)
-[LOG] SoundI::release                          : 487442__tim-verberne__spaceship-cockpit-ambience-02 (000001675627CE48)
-[LOG] SoundI::release                          :     487442__tim-verberne__spaceship-cockpit-ambience-02 (000001672529BB18)
-[LOG] SoundI::release                          :     487442__tim-verberne__spaceship-cockpit-ambience-02 (000001677D1DF878)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E410B38, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E410B38
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D260
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E410B38
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E410CE8, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E410CE8
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5403904
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11936
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D9E0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='237299__augustsandberg__ventilation', format=5, channels=2, frequency=48000, lengthbytes=794080, lengthpcm=2914304, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.517973.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E410CE8
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001672E411708)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE5498)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (0000016419DA96C8)
-[LOG] SoundI::release                          : 237299__augustsandberg__ventilation (000001675627CC98)
-[LOG] SoundI::release                          :     237299__augustsandberg__ventilation (000001672529AE18)
-[LOG] SoundI::release                          :     237299__augustsandberg__ventilation (000001677D1DF6C8)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E410E98, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E410E98
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1527936
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626DB20
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='453442__kyles__hiss-pipe-sharp-like-propane-gas', format=5, channels=2, frequency=48000, lengthbytes=436032, lengthpcm=1599261, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.187866.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E410E98
-[WRN] AsyncCommandBuffer::growBuffer           : Growing command buffer to 65536 bytes. Initial command buffer size can be tuned to avoid dynamic growth using Studio::System::setAdvancedSettings()
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001672E411708, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001672E411708
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626CEA0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='444761__mars420__dougcockpit', format=5, channels=2, frequency=48000, lengthbytes=366528, lengthpcm=1603840, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.036861.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001672E411708
-[LOG] SoundI::release                          : 453442__kyles__hiss-pipe-sharp-like-propane-gas (000001675627C428)
-[LOG] SoundI::release                          :     453442__kyles__hiss-pipe-sharp-like-propane-gas (000001640FCE3A98)
-[LOG] SoundI::release                          :     453442__kyles__hiss-pipe-sharp-like-propane-gas (0000016785C1FBF8)
-[LOG] SoundI::release                          : 444761__mars420__dougcockpit (000001672E5B2398)
-[LOG] SoundI::release                          :     444761__mars420__dougcockpit (000001640FCE5CB8)
-[LOG] SoundI::release                          :     444761__mars420__dougcockpit (0000016785C20618)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627C788, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627C788
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D120
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627C788
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001672E410B38)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE5978)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (0000016419DA9BD8)
-[LOG] SystemI::createSound                     : filename = Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001675627CC98, queue head = 0000016419980BD8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001675627CC98
-[LOG] SystemI::createSoundInternal             :     Create name='Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1384128
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7712
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001675626D260
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='540713__tairblenn__strange-sci-fi-like-noise', format=5, channels=1, frequency=48000, lengthbytes=83552, lengthpcm=581799, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.125671.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001675627CC98
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001675627C788)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE76B8)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (0000016751486C98)
-[LOG] SoundI::release                          :  (0000016756344A58)
-[LOG] SoundI::release                          :     514079__tim-verberne__generic-spaceship-alarm-02 (0000016725299DD8)
-[LOG] SoundI::release                          :  (0000016756345748)
-[LOG] SoundI::release                          :     341611__pureaudioninja__electricity-3 (0000016725299F78)
-[LOG] SoundI::release                          :  (0000016756347CA8)
-[LOG] SoundI::release                          :     218725__an-tony__lamp-buzz (000001672529D9F8)
-[LOG] SoundI::release                          :  (00000167563490C8)
-[LOG] SoundI::release                          :     594215__steaq__big-steam-engine-perfect-loop-24bit-flac (000001672529B638)
-[LOG] SoundI::release                          :  (0000016756345FE8)
-[LOG] SoundI::release                          :     182546__seraaron__alien-sound (0000016725297A18)
-[LOG] SoundI::release                          : 237299__augustsandberg__ventilation (000001672E410CE8)
-[LOG] SoundI::release                          :     237299__augustsandberg__ventilation (000001640FCE4798)
-[LOG] SoundI::release                          :     237299__augustsandberg__ventilation (0000016419DA8E58)
-[LOG] SoundI::release                          : 453442__kyles__hiss-pipe-sharp-like-propane-gas (000001672E410E98)
-[LOG] SoundI::release                          :     453442__kyles__hiss-pipe-sharp-like-propane-gas (000001640FCE7518)
-[LOG] SoundI::release                          :     453442__kyles__hiss-pipe-sharp-like-propane-gas (0000016751486938)
-[LOG] SoundI::release                          : 127707__cydon__alarm-002 (000001675627CAE8)
-[LOG] SoundI::release                          :     127707__cydon__alarm-002 (000001640FCE3DD8)
-[LOG] SoundI::release                          :     127707__cydon__alarm-002 (000001641062F858)
-[LOG] SoundI::release                          : 487442__tim-verberne__spaceship-cockpit-ambience-02 (000001672E4111F8)
-[LOG] SoundI::release                          :     487442__tim-verberne__spaceship-cockpit-ambience-02 (000001640FCE4118)
-[LOG] SoundI::release                          :     487442__tim-verberne__spaceship-cockpit-ambience-02 (0000016419DA9A28)
-[LOG] SoundI::release                          : 444761__mars420__dougcockpit (000001672E411708)
-[LOG] SoundI::release                          :     444761__mars420__dougcockpit (000001640FCE7378)
-[LOG] SoundI::release                          :     444761__mars420__dougcockpit (0000016751486AE8)
-[LOG] SoundI::release                          : 343762__inspectorj__dripping-slow-a (000001672E411048)
-[LOG] SoundI::release                          :     343762__inspectorj__dripping-slow-a (000001640FCE6CF8)
-[LOG] SoundI::release                          :     343762__inspectorj__dripping-slow-a (0000016419DA91B8)
-[LOG] SoundI::release                          : 541684__moulaythami__ventilation-ambience-a (000001675627C278)
-[LOG] SoundI::release                          :     541684__moulaythami__ventilation-ambience-a (000001672529A938)
-[LOG] SoundI::release                          :     541684__moulaythami__ventilation-ambience-a (0000016756289258)
-[LOG] SoundI::release                          : 270593__phantastonia__spaceship-rumble-bg4 (000001672E411558)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (000001640FCE6E98)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (0000016419DA9518)
-[LOG] SoundI::release                          : 270593__phantastonia__spaceship-rumble-bg4 (000001675627C5D8)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (000001640FCE45F8)
-[LOG] SoundI::release                          :     270593__phantastonia__spaceship-rumble-bg4 (000001641062FA08)
-[LOG] SoundI::release                          : 540713__tairblenn__strange-sci-fi-like-noise (000001675627CC98)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (000001640FCE5E58)
-[LOG] SoundI::release                          :     540713__tairblenn__strange-sci-fi-like-noise (00000167514871A8)
-[LOG] SoundI::release                          : 241701__addiofbaddi__fan-ventilation-mono-4 (000001672E4113A8)
-[LOG] SoundI::release                          :     241701__addiofbaddi__fan-ventilation-mono-4 (000001640FCE4FB8)
-[LOG] SoundI::release                          :     241701__addiofbaddi__fan-ventilation-mono-4 (0000016419DA9878)
-[LOG] SoundI::release                          :  (0000016756346888)
-[LOG] SoundI::release                          :     86052__harpoyume__a-rumble-of-the-ground (000001672529D038)
-[LOG] SoundI::release                          :  (0000016756345A28)
-[LOG] SoundI::release                          :     456623__bumpelsnake__steam2 (000001672529C818)
-[LOG] SoundI::release                          :  (00000167563483D8)
-[LOG] SoundI::release                          :     443065__amberdemeillon__leaves-rustling-edited (000001672529B498)
-[LOG] SoundI::release                          :  (0000016756348C78)
-[LOG] SoundI::release                          :     415873__inspectorj__buzzing-electric-lamp-a (000001672529DB98)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.

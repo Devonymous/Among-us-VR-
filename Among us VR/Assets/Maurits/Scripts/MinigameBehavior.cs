@@ -5,11 +5,7 @@ using UnityEngine;
 public class MinigameBehavior : MonoBehaviour
 {
     public static int completed = 0;
-    public GameObject objUp;
-    public GameObject objLeft;
-    public GameObject objRight;
-
-    int timer = 540;
+    public static int timer = 540;
 
     int goalOneL;
     int goalTwoL;
@@ -19,6 +15,7 @@ public class MinigameBehavior : MonoBehaviour
     int goalThreeR;
 
     public GameObject[] directions;
+    public GameObject door;
 
     // Start is called before the first frame update
     void Start()
@@ -44,17 +41,22 @@ public class MinigameBehavior : MonoBehaviour
             {
                 directions[goalTwoL].SetActive(true);
                 directions[goalTwoR].SetActive(true);
+                hitboxLeft.readyL = 0;
+                hitboxRight.readyR = 0;
             }
             
             if (completed == 2)
             {
                 directions[goalThreeL].SetActive(true);
                 directions[goalThreeR].SetActive(true);
+                hitboxLeft.readyL = 0;
+                hitboxRight.readyR = 0;
             }
             
             //ends the minigame
             if (completed == 3)
             {
+                door.SetActive(false);
                 gameObject.SetActive(false);
             }
             timer = 0;

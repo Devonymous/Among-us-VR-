@@ -12,16 +12,11 @@ public class hitboxRight : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter(Collider target)
+    void OnTriggerStay(Collider target)
     {
         if (target.gameObject.tag == "Right")
         {
             readyR = 1;
-            if (hitboxLeft.readyL == 1){
-                MinigameBehavior.completed++;
-                gameObject.SetActive(false);
-                Debug.Log("Hello");
-            }
         }
     }
 }
