@@ -96,6 +96,7 @@ MonoBehaviour:
     actionPath: /actions/default/out/Haptic
     needsReinit: 0
   playerLocation: {fileID: 120467641}
+  RightController: 0
 --- !u!135 &473542490
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -383,6 +384,7 @@ MonoBehaviour:
     actionPath: /actions/default/out/Haptic
     needsReinit: 0
   playerLocation: {fileID: 120467641}
+  RightController: 1
 --- !u!135 &546784152
 SphereCollider:
   m_ObjectHideFlags: 0

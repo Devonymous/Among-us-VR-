@@ -12,6 +12,14 @@ public class DoorController : MonoBehaviour
 
     public Transform Back;
 
+   [SerializeField] Transform RoomFront;
+
+   [SerializeField] Transform RoomBack;
+
+    Transform Destination;
+
+    GameObject player;
+
     bool Locked = true;
 
     public void SetDoorState(bool Open)
@@ -23,19 +31,37 @@ public class DoorController : MonoBehaviour
     public void MovetoDoor(GameObject PlayerObj)
     {
         PlayerObj.GetComponent<PlayerLocationManager>().Idle = false;
+        player = PlayerObj;
         if (Vector3.Distance(PlayerObj.transform.position, Front.position) < Vector3.Distance(PlayerObj.transform.position, Back.position))
         {
             PlayerObj.transform.position = Front.position;
+            Destination = RoomBack;
         }else
         {
             PlayerObj.transform.position = Back.position;
+            Destination = RoomFront;
         }
 
-        if (Locked)
+        if (Locked && Minigame)
         {
             Minigame.SetActive(true);
+        }else
+        {
+            MovetoDestinationDelay();
+            SetDoorState(true);
         }
 
+    }
+
+    public void MovetoDestinationDelay()
+    {
+        Invoke("MoveToDestination", 2);
+    }
+
+    void MoveToDestination()
+    {
+        player.transform.position = Destination.position;
+        player.GetComponent<PlayerLocationManager>().Idle = true;
     }
 
 }
