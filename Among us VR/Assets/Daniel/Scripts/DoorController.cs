@@ -27,8 +27,6 @@ public class DoorController : MonoBehaviour
         {
             PlayerObj.transform.position = Back.position;
         }
-
-        PlayerObj.transform.position = transform.position;
     }
 
 }
