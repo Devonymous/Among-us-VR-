@@ -30,49 +30,49 @@ public class TriggerDetection : MonoBehaviour
 
     public void ActivateIndicator()
     {
-        InvokeRepeating("CheckPlayerDistance", 0, 2);
+        InvokeRepeating("CheckPlayerDistance", 0, 1);
     }
 
     void CheckPlayerDistance()
     {
         //LEFT
-        if (Vector3.Distance(transform.position, ControllerL.transform.position) < 1.5f)
+        if (Vector3.Distance(transform.position, ControllerL.transform.position) < 0.2f)
         {
             //send strong pulses to indacate the player is very near
             Debug.Log("Very near");
-            HapticAction.Execute(0, 0.5f, 150, 0.6f, SteamVR_Input_Sources.LeftHand);
+            HapticAction.Execute(0, 0.2f, 150, 0.6f, SteamVR_Input_Sources.LeftHand);
         }
-        else if (Vector3.Distance(transform.position, ControllerL.transform.position) < 3)
+        else if (Vector3.Distance(transform.position, ControllerL.transform.position) < 0.5f)
         {
             //send medium pulses that indicates the player is getting closer
             Debug.Log("Near");
-            HapticAction.Execute(0, 0.5f, 150, 0.3f, SteamVR_Input_Sources.LeftHand);
+            HapticAction.Execute(0, 0.2f, 150, 0.3f, SteamVR_Input_Sources.LeftHand);
         }
-        else if (Vector3.Distance(transform.position, ControllerL.transform.position) > 3)
+        else if (Vector3.Distance(transform.position, ControllerL.transform.position) > 1)
         {
             //send weak pulses that indicates the player is far away
             Debug.Log("far away");
-            HapticAction.Execute(0, 0.5f, 150, 0.1f, SteamVR_Input_Sources.LeftHand);
+            HapticAction.Execute(0, 0.2f, 150, 0.1f, SteamVR_Input_Sources.LeftHand);
         }
 
         //RIGHT
-        if (Vector3.Distance(transform.position, ControllerR.transform.position) < 1.5f)
+        if (Vector3.Distance(transform.position, ControllerR.transform.position) < 0.2f)
         {
             //send strong pulses to indacate the player is very near
             Debug.Log("Very near");
-            HapticAction.Execute(0, 0.5f, 150, 0.6f, SteamVR_Input_Sources.RightHand);
+            HapticAction.Execute(0, 0.2f, 150, 0.6f, SteamVR_Input_Sources.RightHand);
         }
-        else if (Vector3.Distance(transform.position, ControllerR.transform.position) < 3)
+        else if (Vector3.Distance(transform.position, ControllerR.transform.position) < 0.5f)
         {
             //send medium pulses that indicates the player is getting closer
             Debug.Log("Near");
-            HapticAction.Execute(0, 0.5f, 150, 0.3f, SteamVR_Input_Sources.RightHand);
+            HapticAction.Execute(0, 0.2f, 150, 0.3f, SteamVR_Input_Sources.RightHand);
         }
-        else if (Vector3.Distance(transform.position, ControllerR.transform.position) > 3)
+        else if (Vector3.Distance(transform.position, ControllerR.transform.position) > 1)
         {
             //send weak pulses that indicates the player is far away
             Debug.Log("far away");
-            HapticAction.Execute(0, 0.5f, 150, 0.1f, SteamVR_Input_Sources.RightHand);
+            HapticAction.Execute(0, 0.2f, 150, 0.1f, SteamVR_Input_Sources.RightHand);
         }
     }
 
