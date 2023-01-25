@@ -99,6 +99,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{14917bdd-48c2-4af5-b45b-7c25695447a1}" />
 	<object class="SingleSound" id="{93b25565-3d27-4006-9da4-e6d0dc5ffc9b}">
+		<property name="length">
+			<value>2.6819047619047618</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3aa85087-e206-48f1-a35a-90b277daa835}</destination>
 		</relationship>
@@ -315,7 +318,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
