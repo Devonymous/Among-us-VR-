@@ -5,8 +5,7 @@ using UnityEngine;
 public class SimonSays : MonoBehaviour
 {
     [SerializeField] GameObject[] Tiles;
-    [SerializeField] AudioSource[] Sounds;
-    BoxCollider box;
+    [SerializeField] GameObject[] sound;
     MeshRenderer mesh;
     private int Select;
     public float NoiseTimer;
@@ -20,7 +19,7 @@ public class SimonSays : MonoBehaviour
     public List<int> Sequence;
     private int PositionInSequence;
 
-    public AudioSource Correct,Incorrect;
+    public GameObject Correct,Incorrect;
 
     // Start is called before the first frame update
     void Start()
@@ -88,19 +87,23 @@ public class SimonSays : MonoBehaviour
             if (Sequence[InputInSequence] == ButtonINT)
             {
                 InputInSequence++;
+                Correct.SetActive(false);
                 if (InputInSequence >= Sequence.Count)
                 {
-                    Correct.Play();
-                    Debug.Log("Sound");
+                    Correct.SetActive(true);
+                    Invoke("Timertest",2f);
                     StartCoroutine(WaitBetweenSequences());
                 }
             } else {
-                Incorrect.Play();
-                Debug.Log("INCORRECT AUDIO");
-                GameActive = false;
+                Incorrect.SetActive(true);
+                Invoke("StartGame",3f);
             }
         }
         
+    }
+    void Timertest()
+    {
+
     }
     IEnumerator WaitBetweenSequences()
     {
@@ -110,6 +113,7 @@ public class SimonSays : MonoBehaviour
         InputInSequence = 0;
         Select = Random.Range(0, Tiles.Length);
         Sequence.Add(Select);            
+        Incorrect.SetActive(false);
         Enable(true);            
         NoiseTimerCounter = NoiseTimer;            
         ShouldBeOn = true;            
@@ -123,16 +127,13 @@ public class SimonSays : MonoBehaviour
     void Enable(bool state)
     {
         mesh = Tiles[Sequence[PositionInSequence]].GetComponent<MeshRenderer>();
-        box = Tiles[Sequence[PositionInSequence]].GetComponent<BoxCollider>();
         if (state == true)
         {
-            Sounds[Sequence[PositionInSequence]].Play();
-            box.enabled = true;
+            sound[Sequence[PositionInSequence]].SetActive(true);
             mesh.enabled = true;
         } else if (state == false)
         {
-            Sounds[Sequence[PositionInSequence]].Stop();
-            box.enabled = false;
+            sound[Sequence[PositionInSequence]].SetActive(false);
             mesh.enabled = false;
         }
         

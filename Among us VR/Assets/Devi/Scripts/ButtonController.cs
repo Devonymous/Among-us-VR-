@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
+using FMODUnity;
 
 public class ButtonController : MonoBehaviour
 {
@@ -9,14 +11,14 @@ public class ButtonController : MonoBehaviour
     MeshRenderer mesh;
     private SimonSays Script;
     public int ThisbuttonNumber;
-    private AudioSource Sound;
+
+    public GameObject sound; 
 
     void Start()
     {
         Script = FindObjectOfType<SimonSays>();
         mesh = GetComponent<MeshRenderer>();
         box = GetComponent<BoxCollider>();
-        Sound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,27 +33,26 @@ public class ButtonController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P) && onbutton == true && Script.GameActive == true)
         {
             Enable(true);
-            Sound.Play(); // PLAY SOUND
         }
         if (Input.GetKeyUp(KeyCode.P) && onbutton == true && Script.GameActive == true)
         {
-            Sound.Stop(); // PLAY SOUND
             Enable(false);
             onbutton = false;
             Script.ButtonPressed(ThisbuttonNumber);
         }
     }
 
-    void OntriggerEnter(Collider other)
+    void OntriggerStay(Collider other)
     {
-        if (other.tag == "Player")
+        Debug.Log("HIT");
+        if (other.tag == "Controller")
         {
             onbutton = true;
         }
     }
     void OntriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Controller")
         {
             onbutton = false;
         }
@@ -61,10 +62,12 @@ public class ButtonController : MonoBehaviour
     {
         if (state == true)
         {
+            sound.SetActive(true);
             box.enabled = true;
             mesh.enabled = true;
         } else if (state == false)
         {
+            sound.SetActive(false);
             box.enabled = false;
             mesh.enabled = false;
         }
