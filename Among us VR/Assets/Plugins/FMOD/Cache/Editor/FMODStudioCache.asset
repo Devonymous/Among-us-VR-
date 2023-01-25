@@ -393,7 +393,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank
   Name: CockpitRoom
   StudioPath: bank:/CockpitRoom
-  lastModified: 638102627722097722
+  lastModified: 638102888943645796
   FileSizes:
   - Name: Desktop
     Value: 1391840
@@ -440,7 +440,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank
   Name: VeggieRoom
   StudioPath: bank:/VeggieRoom
-  lastModified: 638102627726038804
+  lastModified: 638102888950565305
   FileSizes:
   - Name: Desktop
     Value: 5415840
@@ -460,7 +460,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638102627723734374
+  lastModified: 638102888946714495
   FileSizes:
   - Name: Desktop
     Value: 919712
@@ -480,10 +480,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638102627723754263
+  lastModified: 638102888946734516
   FileSizes:
   - Name: Desktop
-    Value: 2704
+    Value: 2742
   Exists: 1
 --- !u!114 &-632776302119644938
 MonoBehaviour:
@@ -527,7 +527,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/MiscellaneousSounds.bank
   Name: MiscellaneousSounds
   StudioPath: bank:/MiscellaneousSounds
-  lastModified: 638102627725175908
+  lastModified: 638102888949687231
   FileSizes:
   - Name: Desktop
     Value: 792896
@@ -547,10 +547,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Maurits.bank
   Name: Maurits
   StudioPath: bank:/Maurits
-  lastModified: 638102627724285908
+  lastModified: 638102888948896513
   FileSizes:
   - Name: Desktop
-    Value: 32480
+    Value: 140352
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -614,12 +614,13 @@ MonoBehaviour:
   - {fileID: -3959633454303614452}
   - {fileID: -3532103006289486397}
   - {fileID: -7270221009565348186}
+  - {fileID: 8928021859357566899}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1424375708339710962}
   StringsBanks:
   - {fileID: -673088895981517255}
-  cacheTime: 638102627726038804
+  cacheTime: 638102888950565305
   cacheVersion: 131601
 --- !u!114 &222698492096069620
 MonoBehaviour:
@@ -1122,7 +1123,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Lab.bank
   Name: Lab
   StudioPath: bank:/Lab
-  lastModified: 638102627723286487
+  lastModified: 638102888945843703
   FileSizes:
   - Name: Desktop
     Value: 694240
@@ -1169,7 +1170,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank
   Name: EngineRoom
   StudioPath: bank:/EngineRoom
-  lastModified: 638102627722811349
+  lastModified: 638102888944773225
   FileSizes:
   - Name: Desktop
     Value: 1539808
@@ -1282,6 +1283,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 4.2000003
   Length: 48000
+--- !u!114 &8928021859357566899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Maurits/confirm
+  m_EditorClassIdentifier: 
+  Path: event:/Maurits/confirm
+  Guid:
+    Data1: 1593240460
+    Data2: 1079803365
+    Data3: 1883824062
+    Data4: 645411678
+  Banks:
+  - {fileID: -235738917330971776}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
 --- !u!114 &9223368746933043973
 MonoBehaviour:
   m_ObjectHideFlags: 0
