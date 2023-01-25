@@ -92,7 +92,7 @@ MonoBehaviour:
   addRigidBody: 0
   reference: {fileID: 0}
   HapticAction:
-    actionPath: 
+    actionPath: /actions/default/out/Haptic
     needsReinit: 0
 --- !u!1 &146900
 GameObject:
@@ -350,7 +350,7 @@ MonoBehaviour:
   addRigidBody: 0
   reference: {fileID: 0}
   HapticAction:
-    actionPath: 
+    actionPath: /actions/default/out/Haptic
     needsReinit: 0
 --- !u!1 &192944
 GameObject:
