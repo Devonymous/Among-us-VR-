@@ -6,6 +6,10 @@ public class DoorController : MonoBehaviour
 {
     [SerializeField] Animator animator;
 
+    public Transform Front;
+
+    public Transform Back;
+
     public void SetDoorState(bool Open)
     {
         animator.SetBool("Open", Open);

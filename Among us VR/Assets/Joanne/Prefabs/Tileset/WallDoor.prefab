@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 8521177819436748817}
   - component: {fileID: 1850788304659475528}
   - component: {fileID: -8835002420310595296}
+  - component: {fileID: 2888034536089036467}
   m_Layer: 0
   m_Name: WallDoor
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,6 +169,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1850788304659475528}
+  Front: {fileID: 2604976561072372743}
+  Back: {fileID: 978748816481496502}
+--- !u!135 &2888034536089036467
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5367599990553653668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.04
+  m_Center: {x: -0.75000006, y: 0.9889208, z: -0.0000015497208}
 --- !u!1 &5772017323170639524
 GameObject:
   m_ObjectHideFlags: 0

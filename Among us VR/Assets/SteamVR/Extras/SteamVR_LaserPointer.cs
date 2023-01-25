@@ -24,6 +24,9 @@ namespace Valve.VR.Extras
         public event PointerEventHandler PointerOut;
         public event PointerEventHandler PointerClick;
 
+        [Space(10), Tooltip("CUSTOM")]
+        public SteamVR_Action_Vibration HapticAction;
+
         Transform previousContact = null;
 
 
@@ -152,6 +155,12 @@ namespace Valve.VR.Extras
                 pointer.transform.localScale = new Vector3(thickness, thickness, dist);
                 pointer.GetComponent<MeshRenderer>().material.color = color;
             }
+
+            if (hit.collider.gameObject.tag == "Door")
+            {
+                HapticAction.Execute(0, 1, 150, 1, SteamVR_Input_Sources.RightHand);
+            }
+
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
         }
     }
