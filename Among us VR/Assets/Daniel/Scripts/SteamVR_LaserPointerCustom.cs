@@ -160,10 +160,10 @@ namespace Valve.VR.Extras
             {
                 if (RightController)
                 {
-                    HapticAction.Execute(0, 1, 150, .5f, SteamVR_Input_Sources.RightHand);
+                    HapticAction.Execute(0, 0, 150, .5f, SteamVR_Input_Sources.RightHand);
                 }else
                 {
-                    HapticAction.Execute(0, 1, 150, .5f, SteamVR_Input_Sources.LeftHand);
+                    HapticAction.Execute(0, 0, 150, .5f, SteamVR_Input_Sources.LeftHand);
                 }
             }
             if (playerLocation.Idle && hit.collider.gameObject.tag == "Door" && interactWithUI != null && interactWithUI.GetState(pose.inputSource))
