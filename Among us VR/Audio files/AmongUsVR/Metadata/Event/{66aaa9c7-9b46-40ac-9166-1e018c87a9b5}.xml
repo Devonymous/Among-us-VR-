@@ -23,7 +23,7 @@
 			<destination>{0e061582-ad15-4830-bcc9-efbeb0b28b1b}</destination>
 		</relationship>
 		<relationship name="markerTracks">
-			<destination>{5747d6e6-ff7b-452c-8c69-e554be332b4e}</destination>
+			<destination>{a2f2b429-0555-4b95-8e1c-b08a73f816bb}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{36bdb836-d81e-4a2b-a702-5a831f55df56}</destination>
@@ -61,16 +61,16 @@
 			<value>true</value>
 		</property>
 		<property name="dopplerScale">
-			<value>150</value>
+			<value>500</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0.100000001</value>
+			<value>0</value>
 		</property>
 		<property name="maximumDistance">
 			<value>4.20000029</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{5747d6e6-ff7b-452c-8c69-e554be332b4e}" />
+	<object class="MarkerTrack" id="{a2f2b429-0555-4b95-8e1c-b08a73f816bb}" />
 	<object class="GroupTrack" id="{36bdb836-d81e-4a2b-a702-5a831f55df56}">
 		<relationship name="modules">
 			<destination>{25e14fd6-50df-4785-bd75-6cc3056b0861}</destination>
@@ -137,7 +137,7 @@
 			<destination>{8f7417d3-36f5-4635-9c23-f51de1397b95}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{5747d6e6-ff7b-452c-8c69-e554be332b4e}</destination>
+			<destination>{a2f2b429-0555-4b95-8e1c-b08a73f816bb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{7eaff9c7-19ac-4e50-ba2a-27297e1f9f95}">
