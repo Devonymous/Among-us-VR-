@@ -7,68 +7,68 @@ using FMODUnity;
 public class ButtonController : MonoBehaviour
 {
     public bool onbutton = false;
-    BoxCollider box;
     MeshRenderer mesh;
     private SimonSays Script;
     public int ThisbuttonNumber;
 
     public GameObject sound; 
-
+    public float distanceleft,distanceright; 
+    public GameObject Left,Right;
+    public SteamVR_Action_Boolean backButton;
+    public SteamVR_Action_Vibration HapticAction;
     void Start()
     {
         Script = FindObjectOfType<SimonSays>();
         mesh = GetComponent<MeshRenderer>();
-        box = GetComponent<BoxCollider>();
+        HapticAction = SteamVR_Actions._default.Haptic;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Temp Input that acts as hands
-        if (Input.GetKeyDown(KeyCode.T))
+        distanceleft = Vector3.Distance(Left.transform.position,this.transform.position);
+        distanceright = Vector3.Distance(Right.transform.position,this.transform.position);
+        if (distanceleft < 1.35)
         {
             onbutton = true;
+            HapticAction.Execute(0, 0, 150, 0.5f, SteamVR_Input_Sources.LeftHand);
+        } else if (distanceright < 1.35)
+        {
+            onbutton = true;
+            HapticAction.Execute(0, 0, 150, .5f, SteamVR_Input_Sources.RightHand);
+        } else {
+            //onbutton = false;
         }
+        
         // Button pressed 
-        if (Input.GetKeyDown(KeyCode.P) && onbutton == true && Script.GameActive == true)
+        if (backButton.GetStateDown(SteamVR_Input_Sources.Any) == true || Input.GetKeyDown(KeyCode.P))
         {
-            Enable(true);
+            if (onbutton == true && Script.GameActive == true)
+            {
+                Enable(true);
+            }
         }
-        if (Input.GetKeyUp(KeyCode.P) && onbutton == true && Script.GameActive == true)
+        if (backButton.GetStateUp(SteamVR_Input_Sources.Any) == true || Input.GetKeyUp(KeyCode.P))
         {
-            Enable(false);
-            onbutton = false;
-            Script.ButtonPressed(ThisbuttonNumber);
+            if (onbutton == true && Script.GameActive == true)
+            {
+                Enable(false);
+                onbutton = false;
+                Script.ButtonPressed(ThisbuttonNumber);
+            }
         }
     }
 
-    void OntriggerStay(Collider other)
-    {
-        Debug.Log("HIT");
-        if (other.tag == "Controller")
-        {
-            onbutton = true;
-        }
-    }
-    void OntriggerExit(Collider other)
-    {
-        if (other.tag == "Controller")
-        {
-            onbutton = false;
-        }
-    }
 
     void Enable(bool state)
     {
         if (state == true)
         {
             sound.SetActive(true);
-            box.enabled = true;
             mesh.enabled = true;
         } else if (state == false)
         {
             sound.SetActive(false);
-            box.enabled = false;
             mesh.enabled = false;
         }
         

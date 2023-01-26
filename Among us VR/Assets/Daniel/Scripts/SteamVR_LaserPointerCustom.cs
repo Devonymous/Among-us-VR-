@@ -169,7 +169,7 @@ namespace Valve.VR.Extras
             if (playerLocation.Idle && hit.collider.gameObject.tag == "Door" && interactWithUI != null && interactWithUI.GetState(pose.inputSource))
             {
                 hit.transform.gameObject.GetComponent<DoorController>().MovetoDoor(transform.root.gameObject);
-            }
+            } 
 
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
         }

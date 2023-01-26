@@ -24,15 +24,11 @@ public class SimonSays : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke("StartGame",2f);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            StartGame();
-        }
         if (ShouldBeOn)
         {
             NoiseTimerCounter -= Time.deltaTime;
@@ -84,6 +80,7 @@ public class SimonSays : MonoBehaviour
     {
         if (GameActive)
         {
+            Debug.Log("test");
             if (Sequence[InputInSequence] == ButtonINT)
             {
                 InputInSequence++;
@@ -120,8 +117,7 @@ public class SimonSays : MonoBehaviour
         GameActive = false;  
         if (Sequence.Count == 5)
         {
-            Debug.Log("Door OPEN");
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
         }                                  
     }
     void Enable(bool state)
