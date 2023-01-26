@@ -37,7 +37,7 @@ public class ButtonController : MonoBehaviour
             onbutton = true;
             HapticAction.Execute(0, 0, 150, .5f, SteamVR_Input_Sources.RightHand);
         } else {
-            //onbutton = false;
+            onbutton = false;
         }
         
         // Button pressed 

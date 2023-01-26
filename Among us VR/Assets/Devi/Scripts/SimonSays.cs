@@ -6,6 +6,7 @@ public class SimonSays : MonoBehaviour
 {
     [SerializeField] GameObject[] Tiles;
     [SerializeField] GameObject[] sound;
+    [SerializeField] DoorController script;
     MeshRenderer mesh;
     private int Select;
     public float NoiseTimer;
@@ -88,7 +89,6 @@ public class SimonSays : MonoBehaviour
                 if (InputInSequence >= Sequence.Count)
                 {
                     Correct.SetActive(true);
-                    Invoke("Timertest",2f);
                     StartCoroutine(WaitBetweenSequences());
                 }
             } else {
@@ -98,10 +98,7 @@ public class SimonSays : MonoBehaviour
         }
         
     }
-    void Timertest()
-    {
 
-    }
     IEnumerator WaitBetweenSequences()
     {
         yield return new WaitForSeconds(1.3f);
@@ -117,6 +114,8 @@ public class SimonSays : MonoBehaviour
         GameActive = false;  
         if (Sequence.Count == 5)
         {
+            script.SetDoorState(true);
+            script.MovetoDestinationDelay();
             this.gameObject.SetActive(false);
         }                                  
     }
