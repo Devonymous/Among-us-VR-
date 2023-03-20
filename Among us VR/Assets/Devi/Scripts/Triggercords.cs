@@ -5,7 +5,6 @@ using UnityEngine;
 public class Triggercords : MonoBehaviour
 {
     public GameObject Cords;
-    public GameObject prefab;
     // Start is called before the first frame update
     void Start()
     {
