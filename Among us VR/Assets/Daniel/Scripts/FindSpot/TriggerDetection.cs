@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using FMODUnity;
 
 public class TriggerDetection : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class TriggerDetection : MonoBehaviour
 
     [SerializeField] GameObject ControllerL;
     [SerializeField] GameObject ControllerR;
+
+    [SerializeField]  StudioEventEmitter Beep;
+
 
     public SteamVR_Action_Vibration HapticAction;
 
@@ -31,7 +35,14 @@ public class TriggerDetection : MonoBehaviour
 
     public void ActivateIndicator()
     {
-        InvokeRepeating("CheckPlayerDistance", 0, 1);
+        //InvokeRepeating("CheckPlayerDistance", 0, 1);
+        InvokeRepeating("AudioCue", 0, 5);
+    }
+
+    public void AudioCue()
+    {
+        Beep.Play();
+        Debug.Log("beep");
     }
 
     void CheckPlayerDistance()
