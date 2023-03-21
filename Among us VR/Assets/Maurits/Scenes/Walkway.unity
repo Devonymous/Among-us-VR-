@@ -1289,7 +1289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228207159}
   m_Layer: 0
-  m_Name: myself
+  m_Name: Deactivable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
