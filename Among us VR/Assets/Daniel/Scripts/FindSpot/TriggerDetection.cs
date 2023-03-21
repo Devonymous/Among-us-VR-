@@ -11,10 +11,18 @@ public class TriggerDetection : MonoBehaviour
     [SerializeField] GameObject ControllerL;
     [SerializeField] GameObject ControllerR;
 
+    [SerializeField] bool UseLegacyHaptics = false;
+
     [SerializeField]  StudioEventEmitter Beep;
 
 
     public SteamVR_Action_Vibration HapticAction;
+
+    float HapticStrengthL = 0.5f;
+    float HapticStrengthR = 0.5f;
+    float HapticCooldownL;
+    float HapticCooldownR;
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -35,14 +43,48 @@ public class TriggerDetection : MonoBehaviour
 
     public void ActivateIndicator()
     {
-        //InvokeRepeating("CheckPlayerDistance", 0, 1);
         InvokeRepeating("AudioCue", 0, 5);
+
+        if (UseLegacyHaptics)
+        InvokeRepeating("CheckPlayerDistance", 0, 1);
     }
 
     public void AudioCue()
     {
         Beep.Play();
         Debug.Log("beep");
+    }
+
+    void Update()
+    {
+        if (!UseLegacyHaptics)
+        {
+            float ProgressL = Mathf.InverseLerp(4, 0, Vector3.Distance(transform.position, ControllerL.transform.position));
+            HapticStrengthL = ProgressL;
+            if (HapticCooldownL < Time.time)
+            {
+                HapticFeedbackLeft();
+                HapticCooldownL = Time.time + ((1 - ProgressL) * 1.1f);
+            }
+
+            float ProgressR = Mathf.InverseLerp(4, 0, Vector3.Distance(transform.position, ControllerR.transform.position));
+            HapticStrengthR = ProgressR;
+            if (HapticCooldownR < Time.time)
+            {
+                HapticFeedbackRight();
+                HapticCooldownR = Time.time + ((1 - ProgressR) * 1.1f);
+            }
+        }
+    }
+
+    void HapticFeedbackLeft()
+    {
+        HapticAction.Execute(0, 0.1f, 150, HapticStrengthL, SteamVR_Input_Sources.LeftHand);
+    }
+
+    void HapticFeedbackRight()
+    {
+        HapticAction.Execute(0, 0.1f, 150, HapticStrengthR, SteamVR_Input_Sources.RightHand);
     }
 
     void CheckPlayerDistance()
