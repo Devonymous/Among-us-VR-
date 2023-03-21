@@ -87,6 +87,7 @@ public class TriggerDetection : MonoBehaviour
         HapticAction.Execute(0, 0.1f, 150, HapticStrengthR, SteamVR_Input_Sources.RightHand);
     }
 
+    //Legacy
     void CheckPlayerDistance()
     {
         //LEFT
