@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1056
+--- !u!114 &-8516827006562785658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Daniel/MinigameFindSpotTriggerBeep
+  m_EditorClassIdentifier: 
+  Path: event:/Daniel/MinigameFindSpotTriggerBeep
+  Guid:
+    Data1: 614089969
+    Data2: 1330906638
+    Data3: 213325494
+    Data4: 45091814
+  Banks:
+  - {fileID: -2327084840178180917}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1714
 --- !u!114 &-8429022644260547007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -393,7 +420,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank
   Name: CockpitRoom
   StudioPath: bank:/CockpitRoom
-  lastModified: 638102632806105632
+  lastModified: 638149992985773312
   FileSizes:
   - Name: Desktop
     Value: 1391840
@@ -425,6 +452,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1128
+--- !u!114 &-2977373981184468298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VoiceStartEvent 2
+  m_EditorClassIdentifier: 
+  Path: event:/VoiceStartEvent 2
+  Guid:
+    Data1: -1633883584
+    Data2: 1189563396
+    Data3: -1622132058
+    Data4: 133987174
+  Banks:
+  - {fileID: -1424375708339710962}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 5720
 --- !u!114 &-2558965580156386485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,10 +494,30 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank
   Name: VeggieRoom
   StudioPath: bank:/VeggieRoom
-  lastModified: 638102632910827126
+  lastModified: 638149992989570125
   FileSizes:
   - Name: Desktop
     Value: 5415840
+  Exists: 1
+--- !u!114 &-2327084840178180917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Daniel.bank
+  m_EditorClassIdentifier: 
+  Path: Audio files/AmongUsVR/Build/Desktop/Daniel.bank
+  Name: Daniel
+  StudioPath: bank:/Daniel
+  lastModified: 638149992986075388
+  FileSizes:
+  - Name: Desktop
+    Value: 3296
   Exists: 1
 --- !u!114 &-1424375708339710962
 MonoBehaviour:
@@ -460,10 +534,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638102632842960578
+  lastModified: 638149992987692875
   FileSizes:
   - Name: Desktop
-    Value: 919712
+    Value: 1473728
   Exists: 1
 --- !u!114 &-673088895981517255
 MonoBehaviour:
@@ -480,10 +554,10 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638102632842990505
+  lastModified: 638149992987742769
   FileSizes:
   - Name: Desktop
-    Value: 2742
+    Value: 2980
   Exists: 1
 --- !u!114 &-632776302119644938
 MonoBehaviour:
@@ -512,6 +586,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 260000
+--- !u!114 &-501315175584176877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VoiceStartEvent 3
+  m_EditorClassIdentifier: 
+  Path: event:/VoiceStartEvent 3
+  Guid:
+    Data1: -226885670
+    Data2: 1112255752
+    Data3: -786473587
+    Data4: -945072098
+  Banks:
+  - {fileID: -1424375708339710962}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 4545
 --- !u!114 &-393776159787721948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,7 +628,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/MiscellaneousSounds.bank
   Name: MiscellaneousSounds
   StudioPath: bank:/MiscellaneousSounds
-  lastModified: 638102632848007090
+  lastModified: 638149992988807376
   FileSizes:
   - Name: Desktop
     Value: 792896
@@ -547,7 +648,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Maurits.bank
   Name: Maurits
   StudioPath: bank:/Maurits
-  lastModified: 638102632846211890
+  lastModified: 638149992988174953
   FileSizes:
   - Name: Desktop
     Value: 140352
@@ -573,6 +674,7 @@ MonoBehaviour:
   - {fileID: -2558965580156386485}
   - {fileID: 7243510043142553865}
   - {fileID: -235738917330971776}
+  - {fileID: -2327084840178180917}
   EditorEvents:
   - {fileID: -3766484070775404851}
   - {fileID: 6004969081627763642}
@@ -615,12 +717,16 @@ MonoBehaviour:
   - {fileID: -3532103006289486397}
   - {fileID: -7270221009565348186}
   - {fileID: 2190870191382168176}
+  - {fileID: 1445241592627518081}
+  - {fileID: -8516827006562785658}
+  - {fileID: -2977373981184468298}
+  - {fileID: -501315175584176877}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1424375708339710962}
   StringsBanks:
   - {fileID: -673088895981517255}
-  cacheTime: 638102632910827126
+  cacheTime: 638149992989570125
   cacheVersion: 131601
 --- !u!114 &222698492096069620
 MonoBehaviour:
@@ -784,6 +890,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 59748
+--- !u!114 &1445241592627518081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VICTORY TUUUUUUUNE
+  m_EditorClassIdentifier: 
+  Path: event:/VICTORY TUUUUUUUNE
+  Guid:
+    Data1: -27733321
+    Data2: 1270538510
+    Data3: -1544937300
+    Data4: -133487325
+  Banks:
+  - {fileID: -1424375708339710962}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11000
 --- !u!114 &2190870191382168176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,7 +1283,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Lab.bank
   Name: Lab
   StudioPath: bank:/Lab
-  lastModified: 638102632831568793
+  lastModified: 638149992987171736
   FileSizes:
   - Name: Desktop
     Value: 694240
@@ -1197,7 +1330,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank
   Name: EngineRoom
   StudioPath: bank:/EngineRoom
-  lastModified: 638102632818716218
+  lastModified: 638149992986762624
   FileSizes:
   - Name: Desktop
     Value: 1539808
@@ -1228,7 +1361,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 20
-  Length: 57391
+  Length: 21498
 --- !u!114 &8574241199568848876
 MonoBehaviour:
   m_ObjectHideFlags: 0
