@@ -21,6 +21,7 @@ public class HeightCal : MonoBehaviour
 
     ***/
 
+    public GameObject myself;
     public GameObject heightCam;
     public Vector3 playerVector;
     public float playerHeight;
@@ -33,11 +34,13 @@ public class HeightCal : MonoBehaviour
 
     IEnumerator CalHeight()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         playerVector = heightCam.transform.position;
         playerHeight = playerVector.y;
         armLength = playerVector.y / 2; //calculates center of body to hand, not actual arm length.
         Debug.Log("Player Height: " + playerHeight + " | Arm Length: " + armLength);
+        yield return new WaitForSeconds(4);
+        myself.SetActive(false);
     }
 
     /*** why calculate with player height with armspan when you can just look at how high the camera goes >.>
