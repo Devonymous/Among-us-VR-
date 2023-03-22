@@ -39,6 +39,7 @@ public class MinigameBehavior : MonoBehaviour
     
             if (completed == 1)
             {
+                StartCoroutine(pleaseWait());
                 directions[goalTwoL].SetActive(true);
                 directions[goalTwoR].SetActive(true);
                 hitboxLeft.readyL = 0;
@@ -47,6 +48,7 @@ public class MinigameBehavior : MonoBehaviour
             
             if (completed == 2)
             {
+                StartCoroutine(pleaseWait());
                 directions[goalThreeL].SetActive(true);
                 directions[goalThreeR].SetActive(true);
                 hitboxLeft.readyL = 0;
@@ -65,5 +67,10 @@ public class MinigameBehavior : MonoBehaviour
         {
             timer++;
         }
+    }
+
+    IEnumerator pleaseWait()
+    {
+        yield return new WaitForSecondsRealtime(2);
     }
 }
