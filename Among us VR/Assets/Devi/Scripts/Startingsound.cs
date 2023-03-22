@@ -35,7 +35,7 @@ public class Startingsound : MonoBehaviour
     IEnumerator SecondSound()
     {
         HelpSounds[1].SetActive(true);
-        yield return new WaitForSeconds(13);
+        yield return new WaitForSeconds(14);
         phase2 = true;
         door.enabled = true;
         HelpSounds[1].SetActive(false);

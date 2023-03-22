@@ -68,11 +68,19 @@ public class SimonSays : MonoBehaviour
 
     IEnumerator waiter()
     {
+        for (int i = 0; i > 3; i ++)
+        {
+            Tiles[i].SetActive(false);
+        }
         yield return new WaitForSecondsRealtime(1);
         HelpSounds[0].SetActive(true);
         yield return new WaitForSecondsRealtime(27);
         HelpSounds[0].SetActive(false);
         yield return new WaitForSecondsRealtime(1);
+        for (int i = 0; i > 3; i++)
+        {
+            Tiles[i].SetActive(true);
+        }
         StartGame();
     }
     public void StartGame()
