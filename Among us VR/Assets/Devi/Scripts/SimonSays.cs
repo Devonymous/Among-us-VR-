@@ -6,6 +6,7 @@ public class SimonSays : MonoBehaviour
 {
     [SerializeField] GameObject[] Tiles;
     [SerializeField] GameObject[] sound;
+    [SerializeField] GameObject[] HelpSounds;
     [SerializeField] DoorController script;
     MeshRenderer mesh;
     private int Select;
@@ -25,7 +26,7 @@ public class SimonSays : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("StartGame",2f);
+        StartCoroutine(waiter());
     }
 
     void Update()
@@ -65,6 +66,15 @@ public class SimonSays : MonoBehaviour
            
     }
 
+    IEnumerator waiter()
+    {
+        yield return new WaitForSecondsRealtime(1);
+        HelpSounds[0].SetActive(true);
+        yield return new WaitForSecondsRealtime(27);
+        HelpSounds[0].SetActive(false);
+        yield return new WaitForSecondsRealtime(1);
+        StartGame();
+    }
     public void StartGame()
     {
         Sequence.Clear();

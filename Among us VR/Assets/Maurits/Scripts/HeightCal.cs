@@ -23,6 +23,7 @@ public class HeightCal : MonoBehaviour
 
     public GameObject myself;
     public GameObject heightCam;
+    public GameObject Startsound;
     public Vector3 playerVector;
     public float playerHeight;
     public float armLength;
@@ -40,6 +41,7 @@ public class HeightCal : MonoBehaviour
         armLength = playerVector.y / 2; //calculates center of body to hand, not actual arm length.
         Debug.Log("Player Height: " + playerHeight + " | Arm Length: " + armLength);
         yield return new WaitForSeconds(4);
+        Startsound.SetActive(true);
         myself.SetActive(false);
     }
 
