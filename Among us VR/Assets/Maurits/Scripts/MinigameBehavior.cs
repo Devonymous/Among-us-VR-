@@ -15,8 +15,7 @@ public class MinigameBehavior : MonoBehaviour
     int goalThreeR;
 
     public GameObject[] directions;
-    public GameObject doorL;
-    public GameObject doorR;
+    public DoorController door;
 
     // Start is called before the first frame update
     void Start()
@@ -59,8 +58,8 @@ public class MinigameBehavior : MonoBehaviour
             //ends the minigame
             if (completed == 3)
             {
-                doorL.SetActive(false);
-                doorR.SetActive(false);
+                door.SetDoorState(true);
+                door.MovetoDestinationDelay();
                 gameObject.SetActive(false);
             }
             timer = 0;
