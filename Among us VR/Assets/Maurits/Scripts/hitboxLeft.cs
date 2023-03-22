@@ -19,14 +19,15 @@ public class hitboxLeft : MonoBehaviour
             readyL = 1;
             if (hitboxRight.readyR == 1 && readyL == 1)
             {
-                MinigameBehavior.completed++;
+                readyL = 0;
+                hitboxRight.readyR = 0;
                 complete.SetActive(true);
                 complete.SetActive(false);
-                MinigameBehavior.timer = 540;
+                MinigameBehavior.timer = 480;
                 gameObject.SetActive(false);
                 Debug.Log("Hello");
+                MinigameBehavior.completed++;
             }
         }
     }
-
 }

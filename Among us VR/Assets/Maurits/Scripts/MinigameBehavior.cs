@@ -15,7 +15,8 @@ public class MinigameBehavior : MonoBehaviour
     int goalThreeR;
 
     public GameObject[] directions;
-    public GameObject door;
+    public GameObject doorL;
+    public GameObject doorR;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public class MinigameBehavior : MonoBehaviour
     
             if (completed == 1)
             {
+                StartCoroutine(pleaseWait());
                 directions[goalTwoL].SetActive(true);
                 directions[goalTwoR].SetActive(true);
                 hitboxLeft.readyL = 0;
@@ -47,6 +49,7 @@ public class MinigameBehavior : MonoBehaviour
             
             if (completed == 2)
             {
+                StartCoroutine(pleaseWait());
                 directions[goalThreeL].SetActive(true);
                 directions[goalThreeR].SetActive(true);
                 hitboxLeft.readyL = 0;
@@ -56,7 +59,8 @@ public class MinigameBehavior : MonoBehaviour
             //ends the minigame
             if (completed == 3)
             {
-                door.SetActive(false);
+                doorL.SetActive(false);
+                doorR.SetActive(false);
                 gameObject.SetActive(false);
             }
             timer = 0;
@@ -65,5 +69,10 @@ public class MinigameBehavior : MonoBehaviour
         {
             timer++;
         }
+    }
+
+    IEnumerator pleaseWait()
+    {
+        yield return new WaitForSecondsRealtime(2);
     }
 }
