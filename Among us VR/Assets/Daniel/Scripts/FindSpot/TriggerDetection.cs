@@ -26,7 +26,7 @@ public class TriggerDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Controller")
+        if (other.tag == "Left" || other.tag == "Right")
         {
             minigame.OnCompleteRound.Invoke();
 

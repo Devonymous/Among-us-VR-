@@ -16,7 +16,7 @@ public class Startingsound : MonoBehaviour
     }
     public void Update()
     {
-        if (backButton.GetStateDown(SteamVR_Input_Sources.Any) == true || phase1 == true)
+        if (backButton.GetStateDown(SteamVR_Input_Sources.Any) == true && phase1 == true)
         {
             StartCoroutine(SecondSound());
             phase1 = false;
