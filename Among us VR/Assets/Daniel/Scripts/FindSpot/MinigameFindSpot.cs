@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class MinigameFindSpot : MinigameBase
 {
@@ -10,6 +11,7 @@ public class MinigameFindSpot : MinigameBase
     float PlayingFieldRangeX;
     float PlayingFieldRangeZ;
     [SerializeField] int TimesToComplete;
+    [SerializeField] StudioEventEmitter Instructions;
 
 
     int CurrentScore;
@@ -19,6 +21,10 @@ public class MinigameFindSpot : MinigameBase
     void OnEnable()
     {
         Init();
+        if (Instructions != null)
+        {
+            Instructions.Play();
+        }
     }
     
    
