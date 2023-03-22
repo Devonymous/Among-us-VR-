@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class DoorController : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class DoorController : MonoBehaviour
 
    [SerializeField] Transform RoomBack;
 
+   [SerializeField] StudioEventEmitter OpenDoor;
+
     Transform Destination;
 
     GameObject player;
@@ -26,6 +29,10 @@ public class DoorController : MonoBehaviour
     {
         animator.SetBool("Open", Open);
         Locked = !Open;
+        if (OpenDoor != null)
+        {
+            OpenDoor.Play();
+        }
     }
 
     public void MovetoDoor(GameObject PlayerObj)

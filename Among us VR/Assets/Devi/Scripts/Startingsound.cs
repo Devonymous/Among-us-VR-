@@ -8,6 +8,7 @@ public class Startingsound : MonoBehaviour
 {
     bool phase1 = false,phase2 = false;
     public SphereCollider door;
+    public GameObject doortag;
     [SerializeField] GameObject[] HelpSounds;
     public SteamVR_Action_Boolean backButton;
     public void Start()
@@ -35,9 +36,10 @@ public class Startingsound : MonoBehaviour
     IEnumerator SecondSound()
     {
         HelpSounds[1].SetActive(true);
-        yield return new WaitForSeconds(13);
+        yield return new WaitForSeconds(14);
         phase2 = true;
         door.enabled = true;
+        doortag.tag = "Door";
         HelpSounds[1].SetActive(false);
     }
 }

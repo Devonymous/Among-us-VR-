@@ -10,6 +10,7 @@ public class ButtonController : MonoBehaviour
     MeshRenderer mesh;
     private SimonSays Script;
     public int ThisbuttonNumber;
+    bool buttoncheck = false;
 
     public GameObject sound; 
     public float distanceleft,distanceright; 
@@ -21,6 +22,7 @@ public class ButtonController : MonoBehaviour
         Script = FindObjectOfType<SimonSays>();
         mesh = GetComponent<MeshRenderer>();
         HapticAction = SteamVR_Actions._default.Haptic;
+        Enable(false);
     }
 
     // Update is called once per frame
@@ -41,21 +43,20 @@ public class ButtonController : MonoBehaviour
         }
         
         // Button pressed 
-        if (backButton.GetStateDown(SteamVR_Input_Sources.Any) == true || Input.GetKeyDown(KeyCode.P))
+        if (backButton.GetStateDown(SteamVR_Input_Sources.Any) == true)
         {
             if (onbutton == true && Script.GameActive == true)
             {
                 Enable(true);
+                buttoncheck = true;
             }
         }
-        if (backButton.GetStateUp(SteamVR_Input_Sources.Any) == true || Input.GetKeyUp(KeyCode.P))
+        if (backButton.GetStateUp(SteamVR_Input_Sources.Any) == true && buttoncheck == true)
         {
-            if (onbutton == true && Script.GameActive == true)
-            {
                 Enable(false);
                 onbutton = false;
                 Script.ButtonPressed(ThisbuttonNumber);
-            }
+                buttoncheck = false;
         }
     }
 
