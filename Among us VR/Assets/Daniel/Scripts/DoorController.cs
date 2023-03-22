@@ -19,6 +19,9 @@ public class DoorController : MonoBehaviour
 
    [SerializeField] StudioEventEmitter OpenDoor;
 
+   [SerializeField] StudioEventEmitter Walk;
+
+
     Transform Destination;
 
     GameObject player;
@@ -69,6 +72,10 @@ public class DoorController : MonoBehaviour
     {
         player.transform.position = Destination.position;
         player.GetComponent<PlayerLocationManager>().Idle = true;
+        if (Walk != null)
+        {
+            Walk.Play();
+        }
     }
 
 }
