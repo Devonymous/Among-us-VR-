@@ -29,7 +29,7 @@ public class TriggerDetection : MonoBehaviour
         if (other.tag == "Left" || other.tag == "Right")
         {
             minigame.OnCompleteRound.Invoke();
-
+            AudioCue();
             //send strongest pulse to indicate that the player reached the spot
             HapticAction.Execute(0, 1, 150, 1, SteamVR_Input_Sources.LeftHand);
             HapticAction.Execute(0, 1, 150, 1, SteamVR_Input_Sources.RightHand);
@@ -43,8 +43,6 @@ public class TriggerDetection : MonoBehaviour
 
     public void ActivateIndicator()
     {
-        InvokeRepeating("AudioCue", 0, 5);
-
         if (UseLegacyHaptics)
         InvokeRepeating("CheckPlayerDistance", 0, 1);
     }
@@ -52,7 +50,6 @@ public class TriggerDetection : MonoBehaviour
     public void AudioCue()
     {
         Beep.Play();
-        Debug.Log("beep");
     }
 
     void Update()
