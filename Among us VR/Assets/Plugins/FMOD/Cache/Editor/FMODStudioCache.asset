@@ -555,7 +555,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/CockpitRoom.bank
   Name: CockpitRoom
   StudioPath: bank:/CockpitRoom
-  lastModified: 638151053950277167
+  lastModified: 638151640077404432
   FileSizes:
   - Name: Desktop
     Value: 1391840
@@ -629,7 +629,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/VeggieRoom.bank
   Name: VeggieRoom
   StudioPath: bank:/VeggieRoom
-  lastModified: 638151053957200099
+  lastModified: 638151640083509983
   FileSizes:
   - Name: Desktop
     Value: 5415840
@@ -676,7 +676,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Daniel.bank
   Name: Daniel
   StudioPath: bank:/Daniel
-  lastModified: 638151053950672239
+  lastModified: 638151640077714717
   FileSizes:
   - Name: Desktop
     Value: 3296
@@ -723,38 +723,11 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638151053954867793
+  lastModified: 638151640081748383
   FileSizes:
   - Name: Desktop
     Value: 2521472
   Exists: 1
---- !u!114 &-1104749102932856571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Walk SFX
-  m_EditorClassIdentifier: 
-  Path: event:/Walk SFX
-  Guid:
-    Data1: 1183463332
-    Data2: 1088723832
-    Data3: 504586921
-    Data4: -1717051168
-  Banks:
-  - {fileID: -1424375708339710962}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1500
 --- !u!114 &-673088895981517255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -770,7 +743,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638151053954902861
+  lastModified: 638151640081768394
   FileSizes:
   - Name: Desktop
     Value: 3482
@@ -817,7 +790,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/MiscellaneousSounds.bank
   Name: MiscellaneousSounds
   StudioPath: bank:/MiscellaneousSounds
-  lastModified: 638151053956294765
+  lastModified: 638151640082759298
   FileSizes:
   - Name: Desktop
     Value: 792896
@@ -837,7 +810,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Maurits.bank
   Name: Maurits
   StudioPath: bank:/Maurits
-  lastModified: 638151053955493552
+  lastModified: 638151640082238821
   FileSizes:
   - Name: Desktop
     Value: 140352
@@ -974,13 +947,13 @@ MonoBehaviour:
   - {fileID: -8062846861013005151}
   - {fileID: -5510692906744958579}
   - {fileID: -16195581870527167}
-  - {fileID: -1104749102932856571}
+  - {fileID: 8728970642279015080}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1424375708339710962}
   StringsBanks:
   - {fileID: -673088895981517255}
-  cacheTime: 638151053957200099
+  cacheTime: 638151640083509983
   cacheVersion: 131601
 --- !u!114 &222698492096069620
 MonoBehaviour:
@@ -1645,7 +1618,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/Lab.bank
   Name: Lab
   StudioPath: bank:/Lab
-  lastModified: 638151053952772484
+  lastModified: 638151640079756571
   FileSizes:
   - Name: Desktop
     Value: 694240
@@ -1692,7 +1665,7 @@ MonoBehaviour:
   Path: Audio files/AmongUsVR/Build/Desktop/EngineRoom.bank
   Name: EngineRoom
   StudioPath: bank:/EngineRoom
-  lastModified: 638151053951854819
+  lastModified: 638151640079166035
   FileSizes:
   - Name: Desktop
     Value: 1539808
@@ -1751,6 +1724,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 16000
+--- !u!114 &8728970642279015080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Walk SFX
+  m_EditorClassIdentifier: 
+  Path: event:/Walk SFX
+  Guid:
+    Data1: 1183463332
+    Data2: 1088723832
+    Data3: 504586921
+    Data4: -1717051168
+  Banks:
+  - {fileID: -1424375708339710962}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &9223368746933043973
 MonoBehaviour:
   m_ObjectHideFlags: 0

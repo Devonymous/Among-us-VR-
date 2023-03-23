@@ -10,6 +10,7 @@ public class ButtonController : MonoBehaviour
     MeshRenderer mesh;
     private SimonSays Script;
     public int ThisbuttonNumber;
+    [SerializeField] GameObject[] Tiles;
     bool buttoncheck = false;
 
     public GameObject sound; 
@@ -30,14 +31,13 @@ public class ButtonController : MonoBehaviour
     {
         distanceleft = Vector3.Distance(Left.transform.position,this.transform.position);
         distanceright = Vector3.Distance(Right.transform.position,this.transform.position);
-        if (distanceleft < 1.35)
+        if (distanceleft < 1.1)
         {
             onbutton = true;
-            HapticAction.Execute(0, 0, 150, 0.5f, SteamVR_Input_Sources.LeftHand);
-        } else if (distanceright < 1.35)
-        {
+            HapticAction.Execute(0, 0, 150, 0.25f, SteamVR_Input_Sources.LeftHand);
+        } else if (distanceright < 1.1) {
             onbutton = true;
-            HapticAction.Execute(0, 0, 150, .5f, SteamVR_Input_Sources.RightHand);
+            HapticAction.Execute(0, 0, 150, 0.25f, SteamVR_Input_Sources.LeftHand);
         } else {
             onbutton = false;
         }
